@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:300|Indie+Flower&display=swap');
+
+* {
+	box-sizing: border-box
+}
+
+body {
+	margin: 0;
+	font-family: 'Crimson Text', serif;
+	background-color: darkgrey;
+
+}
+
+#title-image {
+	height: 200px;
+	width: 100%;
+	margin: 0;
+	padding: inherit;
+	background: url(../images/color-festival.jpg) center center
+}
+
+.info {
+	font-family: 'Indie Flower', cursive;
+}
+
+#indian-beauty {
+	text-align: center;
+	font-weight: 900;
+	color: #fafafa;
+	padding-top: 10%;
+}
+
+.navbar-brand-home {
+	padding-right: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#navbar-nav-home {
+	text-align: center;
+	font-size: 110%;
+	letter-spacing: 2px;
+	display: inline-block;
+}
+
+.nav-home {
+	background-color: orange;
+	text-align: center;
+}
+
+#navbar-nav-home li {
+	display: inline-block;
+	text-align: center;
+}
+
+#container-fluid-slideshow {
+	position: relative;
+}
+
+.slideShow {
+	text-align: center;
+	
+}
+.resize{
+	
+	height: 400px;
+}
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: #fafafa;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* -----------Position the " next button" to the right*/
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/*----------Hover "buttons"--*/
+.prev,
+.next {
+	background-color: rgba(0, 0, 0, 0.8)
+}
+
+.image-text {
+	color:brown;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+.image {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/*--------------Animation---*/
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1s;
+	animation-name: fade;
+	animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+/*----------------------------------------containers*/
+#container-fluid-slideshow {
+	padding-top: 45px;
+	padding-bottom: 50px;
+	background-color:antiquewhite;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.container-fluid-hampi {
+	background-color: #D12376;
+	margin: 0;
+	padding: 0;
+
+}
+
+.intro-hampi {
+	position: relative;
+	margin-left: 10px;
+	padding-bottom: 300px;
+}
+
+#text {
+	text-align: center;
+}
+
+.title {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.info {
+	text-align: center;
+	font-weight: 700;
+	position: absolute;
+	right: 50%;
+
+	margin: 1em;
+	padding-left: 5px;
+}
+
+.hampi-field-image {
+	position: absolute;
+	left: 50%;
+	height: 50%;
+	width: 50%;
+
+}
+
+.hampi-field-image img {
+	width: 50%;
+}
+
+.social-media {
+	font-weight: 700;
+	;
+	text-align: center;
+
+}
+
+/*---------------------------------------offerts-*/
+.container-fluid-trip {
+	margin: 0;
+	padding: 0;
+
+}
+
+.travel-title {
+	text-align: center;
+	margin: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: Oswald;
+	font-weight: 400;
+}
+
+#travel-offert {
+	text-align: center;
+}
+
+.offerts {
+	margin-left: 65px;
+	font-family: 'Indie Flower', cursive;
+	font-weight: 300;
+}
+
+
+
+/*------------------------------footer*/
+
+footer {
+	background-color: #525252;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+.bg-footer {
+	background-color: aqua;
+}
+
+#navbar {
+	padding-top: 50px;
+	word-spacing: 10px;
+}
+
+.nav-item {
+	display: inline-block;
+}
+
+.navbar-brand-social {
+	font-weight: 700;
+	padding-top: 40px;
+	padding-left: 30px;
+	color: #fafafa;
+}
+
+#list-inline li {
+	display: inline-block;
+}
+
+.fa {
+	font-size: 40px;
+	padding-left: 25px;
+	color: #FF6D29;
+
+}
+
+
+@media(min-width: 992px) {
+	.center-form {
+		padding-top: 30px;
+		min-height: 240px;
+		margin: 0 auto;
+		max-width: 50%;
+	}

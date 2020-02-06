@@ -132,6 +132,13 @@
 				<p class="descount">Resive 10% decount for your first trip with Indian Beauty</p>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col map-style">
+				<div id='map-locations'>
+				</div>
+			</div>
+		</div>
+
 	</section>
 
 	<footer class="container-fluid no-gutters ">
@@ -172,6 +179,34 @@
 		</div>
 		<script type='text/javascript' src="assets/js/slideshow.js">
 		</script>
+		<script>
+			function initMap() {
+				var map = new google.maps.Map(document.getElementById('map-locations'), {
+					zoom: 13,
+					center: {
+						lat: 15.335013,
+						lng: 76.460024
+					}
+				});
+
+				var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+				var locations = [{
+
+				}];
+
+				var markers = locations.map(function(location, i) {
+					return new google.maps.Marker({
+						positon: location,
+						label: labels[i % labels.length]
+					});
+				});
+		
+			}
+		</script>
+		<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js" >
+		</script>
+		<script async defer src=" https://maps.googleapis.com/maps/api/js?key=AIzaSyCakLpVXGzsGN-K-pgiqhJJafXOa_U4-C4&callback=initMap" type="text/javascript"></script>
 	</footer>
 
 </body></html>

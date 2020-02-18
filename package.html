@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	<title>Indian Beauty</title>
+</head>
+
+<body>
+	<header>
+		<div id="title-image" class="row header container-fluid-header">
+			<div class="col">
+				<h1 id="indian-beauty">Indian Beauty</h1>
+			</div>
+		</div>
+		<nav class="nav-home">
+			<a class="navbar-brand-home" href="index.html">Home</a>
+			<ul id="navbar-nav-home">
+				<li>
+					<a href="review.html" target="_blank">Review</a>
+				</li>
+				<li>
+					<a href="package.html" target="_blank">Our Package</a>
+				</li>
+				<li>
+					<a href="contact.html" target="_blank">Contact</a>
+				</li>
+				<li>
+					<a href='#' target="_blank" class='sing-link'>Log in</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section class="container-fluid">
+		<div class="row packages">
+			<div class="col-md-4 package-pic">
+				<img src='assets/images/images%20(1).jpg' />
+			</div>
+			<nav id="nav-pack">
+				<div class='col-sm-2 package'>
+        <h5 class="offer-pack">Social</h5>
+        <ul class="list-inline-package">
+          <li class="pack-icon ">
+             <i class="fa fa-hotel" aria-hidden="true">    Acommodation</i> <span class="sr-only">hotel</span> 
+          </li>
+          <li class="pack-icon ">
+            <i class="fa fa-wifi" aria-hidden="true"> Wifi</i> <span class="sr-only">wifi</span>
+          </li>
+         <!-- <li class="pack-icon ">
+            <i class="fa fa-coffee" aria-hidden="true"> Breakfast</i> <span class="sr-only">breakfast</span>
+          </li>
+          <li class="pack-icon3 ">
+           <i class="fa fa-car" aria-hidden="true"> Transport</i> <span class="sr-only">transport</span>
+          </li>
+          <li class="pack-icon4 ">
+           <i class="fa fa-spa" aria-hidden="true"> Spa</i> <span class="sr-only">spa</span>
+          </li>
+          <li class="pack-icon5 ">
+            <i class="fa fa-plane" aria-hidden="true"> Plane Tickets</i> <span class="sr-only">plane tickets</span>
+          </li>
+					 <li class="pack-icon6">
+           <i class="fa fa-utensils" aria-hidden="true"> Dinner</i> <span class="sr-only">dinner</span>
+          </li>-->
+        </ul>
+      </div>
+			</nav>
+		</div>
+	</section>
+
+	<section>
+		<div class="row">
+			<div class="col map-style">
+				<div id='map-locations'>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="container-fluid no-gutters ">
+		<div class="row social-media ">
+			<div class="col-md-6 bg-footer ">
+				<nav id="navbar">
+					<ul id="navbar-nav-footer">
+						<li class="nav-item active">
+							<a class="nav-link-footer" target="_blank" href="terms.html"> Terms & Conditions</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link-footer" target="_blank" href="terms.html">Ordering & Payment</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link-footer" target="_blank" href="terms.html">Privacy policy</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link-footer" target="_blank" href="faq.html">FAQ</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-md-6 ">
+				<h5 class="uppercase general-sub">Social</h5>
+				<ul class="list-inline social-links">
+					<li class="list-inline-item">
+						<a target="_blank" href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> <span class="sr-only">Facebook</span> </a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> <span class="sr-only">Instagram</span> </a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#"> <i class="fa fa-pinterest" aria-hidden="true"></i> <span class="sr-only">Pinterest</span> </a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#"> <i class="fa fa-whatsapp" aria-hidden="true"></i> <span class="sr-only">Youtube</span> </a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> <span class="sr-only">Twitter</span> </a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> <span class="sr-only">Linkedin</span> </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<script>
+			function initMap() {
+				var map = new google.maps.Map(document.getElementById('map-locations'), {
+					zoom: 13,
+					center: {
+						lat: 15.335013,
+						lng: 76.460024
+					}
+				});
+
+				var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+				var locations = [{
+
+				}];
+
+				var markers = locations.map(function(location, i) {
+					return new google.maps.Marker({
+						positon: location,
+						label: labels[i % labels.length]
+					});
+				});
+
+			}
+		</script>
+		<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
+		</script>
+		<script async defer src=" https://maps.googleapis.com/maps/api/js?key=AIzaSyCakLpVXGzsGN-K-pgiqhJJafXOa_U4-C4&callback=initMap" type="text/javascript"></script>
+	</footer>
+
+</body></html>

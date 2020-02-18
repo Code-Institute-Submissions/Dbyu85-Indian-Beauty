@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:300|Indie+Flower&display=swap');
 
 * {
-	box-sizing: border-box
+	box-sizing: border-box;
 }
 
 body {
 	margin: 0;
 	font-family: 'Crimson Text', serif;
 	background-color: darkgrey;
-
+	overflow-x: hidden;
 }
 
 #title-image {
-	height: 200px;
-	width: 100%;
 	margin: 0;
-	padding: inherit;
-	background: url(../images/color-festival.jpg) center center
+	background-image: url(../images/temple.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+	
 }
 
 .info {
@@ -28,6 +30,24 @@ body {
 	font-weight: 900;
 	color: #fafafa;
 	padding-top: 10%;
+}
+
+.client {
+	padding-top: 50px;
+}
+
+.clients,
+h4 {
+	display: inline;
+	font-weight: 100;
+	font-family: sans-serif;
+	font-size: 10px;
+}
+
+.client img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
 }
 
 .navbar-brand-home {
@@ -43,6 +63,10 @@ body {
 	display: inline-block;
 }
 
+.sing-link {
+	color: red;
+}
+
 .nav-home {
 	background-color: orange;
 	text-align: center;
@@ -52,19 +76,13 @@ body {
 	display: inline-block;
 	text-align: center;
 }
-
-#container-fluid-slideshow {
-	position: relative;
+.presentation-picture{
+	width: 800px;
+	height: 600px;
 }
-
-.slideShow {
-	text-align: center;
-
-}
-
-.resize {
-
-	height: 400px;
+.slideShow{
+	width: 4800px;
+	height: 600px;
 }
 
 .prev,
@@ -75,85 +93,69 @@ body {
 	width: auto;
 	margin-top: -22px;
 	padding: 16px;
-	color: #fafafa;
 	font-weight: bold;
 	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
+	
 }
-
-/* -----------Position the " next button" to the right*/
 
 .next {
 	right: 0;
 	border-radius: 3px 0 0 3px;
+	z-index: 100;
+}
+.prev {
+	left: 0;
+	border-radius: 3px 0 0 3px;
+	z-index: -100;
 }
 
 /*----------Hover "buttons"--*/
 .prev,
 .next {
-	background-color: rgba(0, 0, 0, 0.8)
-}
-
-.image-text {
-	color: brown;
-	font-size: 15px;
-	padding: 8px 12px;
-	position: absolute;
-	bottom: 8px;
-	width: 100%;
-	text-align: center;
-}
-
-.image {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 /*--------------Animation---*/
-.fade {
-	-webkit-animation-name: fade;
-	-webkit-animation-duration: 1s;
-	animation-name: fade;
-	animation-duration: 1s;
-}
 
-@-webkit-keyframes fade {
-	from {
-		opacity: .4
-	}
-
-	to {
-		opacity: 1
-	}
-}
-
-@keyframes fade {
-	from {
-		opacity: .4
-	}
-
-	to {
-		opacity: 1
-	}
 }
 
 /*----------------------------------------containers*/
-#container-fluid-slideshow {
-	padding-top: 45px;
-	padding-bottom: 50px;
+
+.clients-review {
+	position: relative;
+	display: inline-block;
+	text-align: center;
 	background-color: antiquewhite;
+	padding-top: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.review {
+	padding-top: 1
+}
+
+.form-review {
+	width: 50%;
+	border-radius: 15px;
+
+
+}
+
+.form-review,
+h3 {
+	display: inline-block;
+}
+
+.submit {
+	position: absolute;
 }
 
 .uppercase {
 	text-transform: uppercase;
 }
 
-.container-fluid-hampi {
+.hampi-story {
 	background-color: #D12376;
 	margin: 0;
 	padding: 0;
@@ -184,7 +186,7 @@ body {
 	padding-left: 5px;
 }
 
-.hampi-field-image {
+.hampi-map-image {
 	position: absolute;
 	left: 50%;
 	height: 50%;
@@ -192,10 +194,25 @@ body {
 
 }
 
-.hampi-field-image img {
+.hampi-map-image img {
 	width: 50%;
 }
-
+.learn-more{
+	text-align: center;
+	background-color: #46D1FF;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 450px;
+	margin-right: 450px;
+	border: 2px solid;
+	font-family:"Indie flower", sans-serif;
+	font-weight: 900;
+	
+}
+.learn-more a{
+	color: #fafafa;
+	
+}
 .social-media {
 	font-weight: 700;
 	text-align: center;
@@ -203,11 +220,6 @@ body {
 }
 
 /*---------------------------------------offerts-*/
-.container-fluid-trip {
-	margin: 0;
-	padding: 0;
-
-}
 
 map-style {
 	background-color: #95CDE8;
@@ -219,6 +231,8 @@ map-style {
 #map-locations {
 	height: 400px;
 	width: 100%;
+	border-radius: 30px;
+	margin-bottom: 15px;
 }
 
 .travel-title {
@@ -235,22 +249,55 @@ map-style {
 }
 
 .offerts {
-	margin-left: 65px;
+	margin-left: 85px;
 	font-family: 'Indie Flower', cursive;
-	font-weight: 300;
+}
+.offerts img{
+	margin-top: 15px;
+}
+.offert1{
+	margin-top: 10px;
+	background-color: aliceblue;
+	color: #FF210D;
+	font-weight: 900;
+}
+.offert2{
+	background-color: aliceblue;
+	color: #A00DFF;
+	font-weight: 900;
+}
+.offert3{
+	background-color: aliceblue;
+	color: #CE0CE8;
+	font-weight: 900;
 }
 
 
+/*------------------------------package page*/
+.packages {
+	margin: 0;
+	padding: 0;
+	background-color: bisque
+}
+
+#nav-pack {
+	position: relative;
+	display: inline-block;
+}
+
+/*------------------------------contact-form*/
+.contact-title {
+	text-align: center;
+	margin-top: 50px;
+	font-weight: 600;
+	font-family: 'Indie Flower';
+	font-size: 25px;
+}
 
 /*------------------------------footer*/
 
 footer {
 	background-color: #525252;
-}
-
-.container-fluid {
-	margin: 0;
-	padding: 0;
 }
 
 .bg-footer {
@@ -277,18 +324,17 @@ footer {
 	display: inline-block;
 }
 
-.fa {
-	font-size: 40px;
-	padding-left: 25px;
-	color: #FF6D29;
-
+/*------------------------------faq*/
+.faq h4{
+	display: block;
+	font-size: 20px;
+	font-family: cursive;
+	
 }
-
-
-@media(min-width: 992px) {
-	.center-form {
-		padding-top: 30px;
-		min-height: 240px;
-		margin: 0 auto;
-		max-width: 50%;
-	}
+.answer{
+	font-size: 25px;
+}
+.faq-question{
+	color: blue;
+	cursor: pointer;
+}

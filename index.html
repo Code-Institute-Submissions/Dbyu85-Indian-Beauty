@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
 	<title>Indian Beauty</title>
@@ -17,7 +17,7 @@
 
 <body>
 	<header>
-		<div id="title-image" class="row header container-fluid-header">
+		<div id="title-image" class="row header container-fluid ">
 			<div class="col">
 				<h1 id="indian-beauty">Indian Beauty</h1>
 			</div>
@@ -26,57 +26,34 @@
 			<a class="navbar-brand-home" href="index.html">Home</a>
 			<ul id="navbar-nav-home">
 				<li>
-					<a href="review.html">Review</a>
+					<a href="review.html" target="_blank">Review</a>
 				</li>
 				<li>
-					<a href="#">Activities</a>
+					<a href="package.html" target="_blank">Our Package</a>
 				</li>
 				<li>
-					<a href="#">Our Package</a>
+					<a href="contact.html" target="_blank">Contact</a>
 				</li>
 				<li>
-					<a href="#">Conctact</a>
+					<a href='#' target="_blank" class='sing-link'>Log in</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
 
-	<section id="container-fluid-slideshow">
+	<section class="container-fluid">
 
-		<div class="slideShow fade">
-			<div class="image">1/6</div>
-			<img src="assets/images/temple.jpg" class='resize' />
-			<div class="image-text">Hampi bassart temple</div>
-		</div>
+		<div class="presentation-picture">
 
-		<div class="slideShow fade">
-			<div class="image">2/6</div>
-			<img src="assets/images/plato.jpg" class='resize' />
-			<div class="image-text">Hampi Island</div>
-		</div>
+			<div class="slideShow fade">
+				<img src="assets/images/rezise%2520pic/temple.jpg" class='picture'/>
+				<img src="assets/images/plato.jpg" />
+				<img src="assets/images/sunset.jpg" />
+				<img src="assets/images/accd.jpg"/>
+				<img src="assets/images/bernard-james-YWEhdWM_UF4-unsplash.jpg"/>
+				<img src="assets/images/akshay-gill-BGRwi0ZsE-k-unsplash.jpg"/>
+			</div>
 
-		<div class="slideShow fade">
-			<div class="image">3/6</div>
-			<img src="assets/images/sunset.jpg" class='resize' />
-			<div class="image-text">Hampi Island Sunset</div>
-		</div>
-
-		<div class="slideShow fade">
-			<div class="image">4/6</div>
-			<img src="assets/images/accd.jpg" class='resize' />
-			<div class="image-text">Hampi Hostel</div>
-		</div>
-
-		<div class="slideShow fade">
-			<div class="image">5/6</div>
-			<img src="assets/images/bernard-james-YWEhdWM_UF4-unsplash.jpg" class='resize' />
-			<div class="image-text">Hampi Architecture</div>
-		</div>
-
-		<div class="slideShow fade">
-			<div class="image">6/6</div>
-			<img src="assets/images/akshay-gill-BGRwi0ZsE-k-unsplash.jpg" class='resize' />
-			<div class="image-text">Hampi Boulders</div>
 		</div>
 
 		<!--Next and previous buttons -->
@@ -85,7 +62,7 @@
 		<a class="next" onclick="slide(1)">&#10095;</a>
 	</section>
 
-	<section class="container-fluid-hampi">
+	<section class="container-fluid hampi-story">
 		<div class="row ">
 			<div class="col intro-hampi" id="text">
 				<h2 class="title uppercase">About Hampi</h2>
@@ -94,7 +71,7 @@
 
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</article>
-				<div class="hampi-field-image">
+				<div class="hampi-map-image">
 					<img src="assets/images/map.webp" alt="location" />
 				</div>
 			</div>
@@ -113,32 +90,38 @@
 				<p class="10-days">Hampi 10 day experience</p>
 				<p class="14th-century">Discover in 10 days temples of 14th century</p>
 				<p class="price">SEK 0.00</p>
-				<p class="descount">Resive 10% decount for your first trip with Indian Beauty</p>
+				<p class="descount">10% dicount for your first trip with Indian Beauty</p>
 
 			</div>
 			<div class="col-sm-3 offerts offert2">
 				<img src="assets/images/boulder-hampi.jpg" width=100% />
 				<p class="10-days">Hampi 10 day experience</p>
-				<p class="14th-century">Discover in 10 days temples of 14th century</p>
+				<p class="14th-century">Discover a new hobby, climbing in one of the most big climbing area in world</p>
 				<p class="price">SEK 0.00</p>
-				<p class="descount">Resive 10% decount for your first trip with Indian Beauty</p>
+				<p class="descount"> 10% dicount for your first trip with Indian Beauty</p>
 			</div>
 
 			<div class="col-sm-3 offerts offert3">
 				<img src="assets/images/nandhu-kumar-03JtNfCubFw-unsplash.jpg" width=100% />
 				<p class="10-days">Hampi 10 day experience</p>
-				<p class="14th-century">Discover in 10 days temples of 14th century</p>
+				<p class="14th-century">Discover the beauty of the country side in India </p>
 				<p class="price">SEK 0.00</p>
-				<p class="descount">Resive 10% decount for your first trip with Indian Beauty</p>
+				<p class="descount">10% dicount for your first trip with Indian Beauty</p>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col map-style">
-				<div id='map-locations'>
+		<div class="learn-more">
+			<a href="package.html" target="_blank">
+				Read More!
+			</a>
+		</div>
+		<section class="container-fluid">
+			<div class="row">
+				<div class="col map-style">
+					<div id='map-locations'>
+					</div>
 				</div>
 			</div>
-		</div>
-
+		</section>
 	</section>
 
 	<footer class="container-fluid no-gutters ">
@@ -147,16 +130,16 @@
 				<nav id="navbar">
 					<ul id="navbar-nav-footer">
 						<li class="nav-item active">
-							<a class="nav-link-footer" href="#">Terms of Service</a>
+							<a class="nav-link-footer" target="_blank" href="terms.html"> Terms & Conditions</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link-footer" href="#">Privacy</a>
+							<a class="nav-link-footer" target="_blank" href="terms.html">Ordering & Payment</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link-footer" href="#">Policy Honor</a>
+							<a class="nav-link-footer" target="_blank" href="terms.html">Privacy policy</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link-footer" href="#">FAQ</a>
+							<a class="nav-link-footer" target="_blank" href="faq.html">FAQ</a>
 						</li>
 					</ul>
 				</nav>
@@ -166,18 +149,18 @@
 				<ul id="list-inline">
 					<li id="nav-item-icon">
 						<a target="_blank" href="">
-							<i class="item fa fa-facebook" aria-hidden="true"></i>
+							<i class="fa fa-facebook" aria-hidden="true"></i>
 						</a>
 					</li>
 					<li class="nav-item-icon">
 						<a target="_blank" href="">
-							<i class="item fa fa-instagram" aria-hidden="true"></i>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
 						</a>
 					</li>
 				</ul>
 			</div>
 		</div>
-		<script type='text/javascript' src="assets/js/slideshow.js">
+		<script type='text/javascript' src="assets/js/presentation.js">
 		</script>
 		<script>
 			function initMap() {
@@ -201,10 +184,10 @@
 						label: labels[i % labels.length]
 					});
 				});
-		
+
 			}
 		</script>
-		<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js" >
+		<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
 		</script>
 		<script async defer src=" https://maps.googleapis.com/maps/api/js?key=AIzaSyCakLpVXGzsGN-K-pgiqhJJafXOa_U4-C4&callback=initMap" type="text/javascript"></script>
 	</footer>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="">
 
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,66 +11,101 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
 	<title>Indian Beauty</title>
 </head>
 
 <body>
 	<header>
-		<div class="row header landing container-fluid-header">
+		<div id="title-image" class="row header container-fluid-header">
 			<div class="col">
-				<h1 id="indian-beauty titel">Indian Beauty</h1>
+				<h1 id="indian-beauty">Indian Beauty</h1>
 			</div>
 		</div>
-		<div class="">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="#">Home</a>
-				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Review</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Activities</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Our Package</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Conctact</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
+		<nav class="nav-home">
+			<a class="navbar-brand-home" href="index.html">Home</a>
+			<ul id="navbar-nav-home">
+				<li>
+					<a href="review.html" target="_blank">Review</a>
+				</li>
+				<li>
+					<a href="package.html" target="_blank">Our Package</a>
+				</li>
+				<li>
+					<a href="contact.html" target="_blank">Conctact</a>
+				</li>
+				<li>
+					<a href="#" target="_blank">Login</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
 
-	<section>
-
+	<section class="container-fluid">
+		<div class="row clients-review">
+			<div class="col-12 review">
+				<h2 class="uppercase">what our customers say</h2>
+			</div>
+			<div class="review-form">
+				<h3 class="capitalize">your rating</h3>
+				<form>
+					<textarea rows='5' name="review-summary" id="clients-review" class="form-review" placeholder="share with us your review"></textarea>
+				</form>
+				<input class='submit' type='submit' value='submit' />
+			</div>
+			<div class="col client">
+				<img src="assets/images/frank-romero-r2MPahblLCk-unsplash.jpg" />
+				<h4 class="touris-name text-capitalize">mike corn</h4>
+				<p>The calm and peace you get over here is totally worth it. And makes you want to stay there forever. Keep at least a week to chill over here</p>
+			</div>
+			<div class="col client">
+				<img src="assets/images/joshua-coleman-Cj8h7-b47ko-unsplash.jpg" />
+				<h4 class="touris-name text-capitalize">isabel loofe</h4>
+				<p>A city full of beautiful intricate architecture that is a must-visit for travelers and architecture enthusiasts alike. Some of the architectural wonders that you should visit include temples like the Vitthala Temple, Virupaksha Temple which is a UNESCO heritage site and the Krishna Temple.</p>
+			</div>
+			<div class="col client">
+				<img src="assets/images/kal-visuals-QAB-WJcbgJk-unsplash.jpg" />
+				<h4 class="touris-name text-capitalize">lue ching</h4>
+				<p>Hampi is such a beautiful, historical town dipped in tranquility. Vitthal temple is a must visit, it's so quiet and calm. All the important places are close to each other.</p>
+			</div>
+			<div class="col client">
+				<img src="assets/images/marcus-bellamy-2b_kL1wQNp8-unsplash.jpg" />
+				<h4 class="touris-name text-capitalize">venedic leou</h4>
+				<p>Hampi was an amazing experience. The weather was nice for us to walk around the whole area for the entire day. What I found most stunning about the place, however, was the stones lying around everywhere, seemingly ready to start rolling. The architecture of Hampi, made almost entirely from the locally sourced stones, blends seamlessly with the stones. The ruins are preserved in a fantastic condition and they are a delight to discover.</p>
+			</div>
+			<div class="col client">
+				<img src="assets/images/pawel-szvmanski-9VI4XO2EbgA-unsplash.jpg" />
+				<h4 class="touris-name text-capitalize">vicky perez</h4>
+				<p>Hampi was an amazing experience. The weather was nice for us to walk around the whole area for the entire day. What I found most stunning about the place, however, was the stones lying around everywhere, seemingly ready to start rolling. The architecture of Hampi, made almost entirely from the locally sourced stones, blends seamlessly with the stones. The ruins are preserved in a fantastic condition and they are a delight to discover.</p>
+			</div>
+		</div>
 	</section>
 
-
-	<footer class="container-fluid ">
-		<div class="row social-media no-gutters">
-			<div class="col-md-6 col-sm-3">
-				<nav class="navbar">
-					<ul class="navbar-nav float-md-left">
+	<footer class="container-fluid no-gutters ">
+		<div class="row social-media ">
+			<div class="col-md-6 bg-footer ">
+				<nav id="navbar">
+					<ul id="navbar-nav-footer">
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Terms of Service</a>
+							<a class="nav-link-footer" target="_blank" href="terms.html"> Terms & Conditions</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Privacy</a>
+							<a class="nav-link-footer" target="_blank" href="terms.html">Ordering & Payment</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Policy Honor</a>
+							<a class="nav-link-footer" target="_blank" href="terms.html">Privacy policy</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="#">FAQ</a>
+							<a class="nav-link-footer" target="_blank" href="faq.html">FAQ</a>
 						</li>
 					</ul>
 				</nav>
 			</div>
 			<div class="col-md-6 ">
-				<h5 class="uppercase navbar-brand">social media</h5>
-				<ul class="list-inline">
-					<li class="nav-item-icon">
+				<h5 class="uppercase navbar-brand-social">social media</h5>
+				<ul id="list-inline">
+					<li id="nav-item-icon">
 						<a target="_blank" href="">
 							<i class="item fa fa-facebook" aria-hidden="true"></i>
 						</a>
@@ -82,7 +118,39 @@
 				</ul>
 			</div>
 		</div>
+		<script type='text/javascript' src="assets/js/presentation.js">
+		</script>
+		<script>
+			function initMap() {
+				var map = new google.maps.Map(document.getElementById('map-locations'), {
+					zoom: 13,
+					center: {
+						lat: 15.335013,
+						lng: 76.460024
+					}
+				});
+
+				var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+				var locations = [{
+
+				}];
+
+				var markers = locations.map(function(location, i) {
+					return new google.maps.Marker({
+						positon: location,
+						label: labels[i % labels.length]
+					});
+				});
+
+			}
+		</script>
+		<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
+		</script>
+		<script async defer src=" https://maps.googleapis.com/maps/api/js?key=AIzaSyCakLpVXGzsGN-K-pgiqhJJafXOa_U4-C4&callback=initMap" type="text/javascript"></script>
 	</footer>
+
+
 
 	<script type="text/javascript" src=""></script>
 </body></html>

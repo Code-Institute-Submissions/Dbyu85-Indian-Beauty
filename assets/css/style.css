@@ -76,15 +76,30 @@ h4 {
 	display: inline-block;
 	text-align: center;
 }
-.presentation-picture{
-	width: 800px;
-	height: 600px;
-}
-.slideShow{
-	width: 4800px;
-	height: 600px;
-}
+/*--------------slideshow---*/
 
+.slideShow{
+	max-width: 1000px;
+	margin: 50px auto;
+	overflow: auto;
+	margin: auto;
+}
+.slide-img{
+	width: 950px;
+	height: 600;
+	position: relative;
+	overflow: hidden;
+	padding: 3px;
+	border: #666 solid 1px;
+}
+.slide-img img{
+	display: none;
+	width: 950px;
+	height: 600px;
+}
+.slide-img img.active{
+	display: inline-block;
+}
 .prev,
 .next {
 	cursor: pointer;
@@ -106,16 +121,16 @@ h4 {
 .prev {
 	left: 0;
 	border-radius: 3px 0 0 3px;
-	z-index: -100;
+	z-index: 100;
 }
 
-/*----------Hover "buttons"--*/
+/*--Hover "buttons"--*/
 .prev,
 .next {
 	background-color: rgba(0, 0, 0, 0.2);
 }
 
-/*--------------Animation---*/
+/*--------------end slideshow---*/
 
 }
 

@@ -42,41 +42,44 @@
 	</header>
 	<section class="container-fluid">
 		<div class="row packages">
-			<div class="col-md-4 package-pic">
-				<img src='assets/images/images%20(1).jpg' />
+			<div class="col-sm-4 package-pic">
+				<img src='assets/images/images%20(1).jpg' style="width: 100%" />
 			</div>
-			<nav id="nav-pack">
-				<div class='col-sm-2 package'>
-        <h5 class="offer-pack">Social</h5>
-        <ul class="list-inline-package">
-          <li class="pack-icon ">
-             <i class="fa fa-hotel" aria-hidden="true">    Acommodation</i> <span class="sr-only">hotel</span> 
-          </li>
-          <li class="pack-icon ">
-            <i class="fa fa-wifi" aria-hidden="true"> Wifi</i> <span class="sr-only">wifi</span>
-          </li>
-         <!-- <li class="pack-icon ">
-            <i class="fa fa-coffee" aria-hidden="true"> Breakfast</i> <span class="sr-only">breakfast</span>
-          </li>
-          <li class="pack-icon3 ">
-           <i class="fa fa-car" aria-hidden="true"> Transport</i> <span class="sr-only">transport</span>
-          </li>
-          <li class="pack-icon4 ">
-           <i class="fa fa-spa" aria-hidden="true"> Spa</i> <span class="sr-only">spa</span>
-          </li>
-          <li class="pack-icon5 ">
-            <i class="fa fa-plane" aria-hidden="true"> Plane Tickets</i> <span class="sr-only">plane tickets</span>
-          </li>
-					 <li class="pack-icon6">
-           <i class="fa fa-utensils" aria-hidden="true"> Dinner</i> <span class="sr-only">dinner</span>
-          </li>-->
-        </ul>
-      </div>
-			</nav>
+			<div class='col-md-8 package'>
+				<h5 class="offer-pack ">Hampi<p>
+						This offert have the base of a relax and confortable staying. <br>
+						<br>
+						Duration trip:<br>2 weeks staying.
+					</p>
+				</h5>
+				<ul class="list-inline-package">
+					<li class="pack-link ">
+						<i class="fa fa-hotel" aria-hidden="true"> Acommodation</i> <span class="sr-only">hotel</span>
+					</li>
+					<li class="pack-link ">
+						<i class="fa fa-wifi" aria-hidden="true"> Wifi</i> <span class="sr-only">wifi</span>
+					</li>
+					<li class="pack-link ">
+						<i class="fa fa-coffee" aria-hidden="true"> Breakfast</i> <span class="sr-only">breakfast</span>
+					</li>
+					<li class="pack-link ">
+						<i class="fa fa-car" aria-hidden="true"> Transport</i> <span class="sr-only">transport</span>
+					</li>
+					<li class="pack-link ">
+						<i class="fa fa-spa" aria-hidden="true"> Spa</i> <span class="sr-only">spa</span>
+					</li>
+					<li class="pack-link ">
+						<i class="fa fa-plane" aria-hidden="true"> Plane Tickets</i> <span class="sr-only">plane tickets</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="destination uppercase">Destinations
+
 		</div>
 	</section>
 
-	<section>
+	<section class="container-fluid">
 		<div class="row">
 			<div class="col map-style">
 				<div id='map-locations'>
@@ -87,7 +90,7 @@
 
 	<footer class="container-fluid no-gutters ">
 		<div class="row social-media ">
-			<div class="col-md-6 bg-footer ">
+			<div class="col bg-footer ">
 				<nav id="navbar">
 					<ul id="navbar-nav-footer">
 						<li class="nav-item active">
@@ -102,62 +105,28 @@
 						<li class="nav-item active">
 							<a class="nav-link-footer" target="_blank" href="faq.html">FAQ</a>
 						</li>
+						<h5 class="nav-item social">social media</h5>
+						<li class="nav-item active">
+							<a target="_blank" href="">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="nav-item active">
+							<a target="_blank" href="">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</a>
+						</li>
 					</ul>
 				</nav>
 			</div>
-			<div class="col-md-6 ">
-				<h5 class="uppercase general-sub">Social</h5>
-				<ul class="list-inline social-links">
-					<li class="list-inline-item">
-						<a target="_blank" href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> <span class="sr-only">Facebook</span> </a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> <span class="sr-only">Instagram</span> </a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#"> <i class="fa fa-pinterest" aria-hidden="true"></i> <span class="sr-only">Pinterest</span> </a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#"> <i class="fa fa-whatsapp" aria-hidden="true"></i> <span class="sr-only">Youtube</span> </a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> <span class="sr-only">Twitter</span> </a>
-					</li>
-					<li class="list-inline-item">
-						<a target="_blank" href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> <span class="sr-only">Linkedin</span> </a>
-					</li>
-				</ul>
-			</div>
 		</div>
 
-		<script>
-			function initMap() {
-				var map = new google.maps.Map(document.getElementById('map-locations'), {
-					zoom: 13,
-					center: {
-						lat: 15.335013,
-						lng: 76.460024
-					}
-				});
 
-				var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-
-				var locations = [{
-
-				}];
-
-				var markers = locations.map(function(location, i) {
-					return new google.maps.Marker({
-						positon: location,
-						label: labels[i % labels.length]
-					});
-				});
-
-			}
+		<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_QuQ_ARJVJmhjgCWCJ4yl89V1VsCSnCY&callback=initMap"></script>
+		<script type='text/javascript' src="assets/js/presentation.js">
 		</script>
-		<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
-		</script>
-		<script async defer src=" https://maps.googleapis.com/maps/api/js?key=AIzaSyCakLpVXGzsGN-K-pgiqhJJafXOa_U4-C4&callback=initMap" type="text/javascript"></script>
+
 	</footer>
 
 </body></html>

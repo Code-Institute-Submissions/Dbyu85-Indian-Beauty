@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
 	<title>Indian Beauty</title>
@@ -18,7 +18,7 @@
 <body>
 	<header>
 		<div id="title-image" class="row header container-fluid ">
-			<div class="col">
+			<div class="col-sm-12">
 				<h1 id="indian-beauty">Indian Beauty</h1>
 			</div>
 		</div>
@@ -65,9 +65,11 @@
 			<div class="col intro-hampi" id="text">
 				<h2 class="title uppercase">About Hampi</h2>
 				<article class="info">
-					Once upon a time, Hampi was one of the thriving, largest and richest cities of erstwhile Vijanagar Empire, besides being the seat of power of the Empire itself. It also was and still is an important spiritual center and there are a a number of religious architectures and temples, richness in art and architecture.<br>
+					The synonym Hampi—traditionally known as Pampa-kshetra, Kishkindha-kshetra or Bhaskara-kshetra—is derived from Pampa, another name of the goddess Parvati in Hindu theology.<br>
 
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+					<br>
+					Hampi or Hampe (in Kannada), also referred to as the Group of Monuments at Hampi, is a UNESCO World Heritage Site located in east-central Karnataka, India. It became the pilgrimage centre of the Hindu religion. It was the capital of Vijayanagara Empire in the 14th century. With numerous temples, farms and trading markets. By 1500 CE, Hampi-Vijayanagara was the world's second-largest medieval-era city after Beijing, and probably India's richest at that time, attracting traders from Persia and Portugal.The Vijayanagara Empire was defeated by a coalition of Muslim sultanates; its capital was conquered, pillaged and destroyed by sultanate armies in 1565, after which Hampi remained in ruins.
 				</article>
 				<div class="hampi-map-image">
 					<img src="assets/images/map.webp" alt="location" />
@@ -107,10 +109,12 @@
 				<p class="descount">10% dicount for your first trip with Indian Beauty</p>
 			</div>
 		</div>
-		<div class="learn-more">
-			<a href="package.html" target="_blank">
-				Read More!
-			</a>
+		<div class="row">
+			<div class=" col learn-more">
+				<a href="package.html" target="_blank">
+					Read More!
+				</a>
+			</div>
 		</div>
 		<section class="container-fluid">
 			<div class="row">
@@ -124,7 +128,7 @@
 
 	<footer class="container-fluid no-gutters ">
 		<div class="row social-media ">
-			<div class="col-md-6 bg-footer ">
+			<div class="col bg-footer ">
 				<nav id="navbar">
 					<ul id="navbar-nav-footer">
 						<li class="nav-item active">
@@ -139,55 +143,26 @@
 						<li class="nav-item active">
 							<a class="nav-link-footer" target="_blank" href="faq.html">FAQ</a>
 						</li>
+						<h5 class="nav-item social">social media</h5>
+						<li class="nav-item active">
+							<a target="_blank" href="">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="nav-item active">
+							<a target="_blank" href="">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</a>
+						</li>
 					</ul>
 				</nav>
 			</div>
-			<div class="col-md-6 ">
-				<h5 class="uppercase navbar-brand-social">social media</h5>
-				<ul id="list-inline">
-					<li id="nav-item-icon">
-						<a target="_blank" href="">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-						</a>
-					</li>
-					<li class="nav-item-icon">
-						<a target="_blank" href="">
-							<i class="fa fa-instagram" aria-hidden="true"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
 		</div>
+		<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_QuQ_ARJVJmhjgCWCJ4yl89V1VsCSnCY&callback=initMap"></script>
 		<script type='text/javascript' src="assets/js/presentation.js">
 		</script>
-		<script>
-			function initMap() {
-				var map = new google.maps.Map(document.getElementById('map-locations'), {
-					zoom: 13,
-					center: {
-						lat: 15.335013,
-						lng: 76.460024
-					}
-				});
 
-				var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-
-				var locations = [{
-
-				}];
-
-				var markers = locations.map(function(location, i) {
-					return new google.maps.Marker({
-						positon: location,
-						label: labels[i % labels.length]
-					});
-				});
-
-			}
-		</script>
-		<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
-		</script>
-		<script async defer src=" https://maps.googleapis.com/maps/api/js?key=AIzaSyCakLpVXGzsGN-K-pgiqhJJafXOa_U4-C4&callback=initMap" type="text/javascript"></script>
 	</footer>
 
 </body></html>

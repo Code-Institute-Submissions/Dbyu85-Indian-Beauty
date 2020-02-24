@@ -292,7 +292,8 @@ map-style {
 .packages {
 	margin: 0;
 	padding: 0;
-	background-color: bisque;
+	color:blue;
+	
 }
 .offer-pack{
 	padding-top: 50px

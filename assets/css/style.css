@@ -21,9 +21,7 @@ body {
 	
 }
 
-.info {
-	font-family: 'Indie Flower', cursive;
-}
+
 
 #indian-beauty {
 	text-align: center;
@@ -31,14 +29,18 @@ body {
 	color: #fafafa;
 	padding-top: 10%;
 }
-
+/*--------------review---*/
+.clients-review{
+	display: inline-block;
+	text-align: center;
+}
 .client {
-	padding-top: 50px;
+	padding-top: 25px;
 }
 
 .clients,
 h4 {
-	display: inline;
+	display: inline-block;
 	font-weight: 100;
 	font-family: sans-serif;
 	font-size: 10px;
@@ -49,7 +51,9 @@ h4 {
 	height: 30px;
 	border-radius: 50%;
 }
+/*--------------review end---*/
 
+/*----------------------------------------home nav*/
 .navbar-brand-home {
 	padding-right: 20px;
 	font-size: 30px;
@@ -132,7 +136,6 @@ h4 {
 
 /*--------------end slideshow---*/
 
-}
 
 /*----------------------------------------containers*/
 
@@ -147,7 +150,7 @@ h4 {
 }
 
 .review {
-	padding-top: 1
+	padding-top: 10px;
 }
 
 .form-review {
@@ -169,14 +172,16 @@ h3 {
 .uppercase {
 	text-transform: uppercase;
 }
-
+/*---------------------------------------history-*/
 .hampi-story {
 	background-color: #D12376;
 	margin: 0;
 	padding: 0;
 
 }
-
+.info {
+	font-family: 'Indie Flower', cursive;
+}
 .intro-hampi {
 	position: relative;
 	margin-left: 10px;
@@ -212,6 +217,9 @@ h3 {
 .hampi-map-image img {
 	width: 50%;
 }
+
+/*---------------------------------------offert-indexPage-*/
+
 .learn-more{
 	text-align: center;
 	background-color: #46D1FF;
@@ -224,18 +232,10 @@ h3 {
 	font-weight: 900;
 	
 }
+
 .learn-more a{
 	color: #fafafa;
-	
 }
-.social-media {
-	font-weight: 700;
-	text-align: center;
-
-}
-
-/*---------------------------------------offerts-*/
-
 map-style {
 	background-color: #95CDE8;
 	padding: 0;
@@ -292,13 +292,26 @@ map-style {
 .packages {
 	margin: 0;
 	padding: 0;
-	background-color: bisque
+	background-color: bisque;
+}
+.offer-pack{
+	padding-top: 50px
+}
+.package-pic{
+	padding-top: 10px;
+}
+.list-inline-package{
+	padding-left: 5px;
+}.list-inline-package li{
+	display: inline-block;
+	letter-spacing: 4px;
+}
+.pack-link{
+	padding-top: 40px;
+	padding-right: 10px;
+	white-space: pre-line;
 }
 
-#nav-pack {
-	position: relative;
-	display: inline-block;
-}
 
 /*------------------------------contact-form*/
 .contact-title {
@@ -313,19 +326,27 @@ map-style {
 
 footer {
 	background-color: #525252;
+	height: 100px;
 }
 
-.bg-footer {
-	background-color: aqua;
-}
+
 
 #navbar {
-	padding-top: 50px;
+	padding-top: 30px;
 	word-spacing: 10px;
 }
 
 .nav-item {
 	display: inline-block;
+
+}
+.social-media {
+	font-weight: 700;
+	text-align: center;
+}
+.social{
+	font-weight: 800;
+	color: wheat;
 }
 
 .navbar-brand-social {
@@ -352,4 +373,11 @@ footer {
 .faq-question{
 	color: blue;
 	cursor: pointer;
+}
+
+/*------------------------------@media*/
+@media only screen and(min-width:300px){
+	.info{
+		display: none;
+	}
 }

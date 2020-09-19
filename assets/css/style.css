@@ -6,15 +6,38 @@
 
 body {
 	margin: 0;
-	font-family: 'Crimson Text', serif;
-	background-color: darkgrey;
+    padding: 0;
+	font-family: 'DM Sans', sans-serif;
+	
 	overflow-x: hidden;
     background-image: url(../images/temple.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
-
+#home-page{
+    padding: 0;
+    margin: auto;
+    max-width: 100%;
+}
+.nav-home { 
+	background-color: rgba(0, 0, 0, 0.6);
+	text-align: center;
+}
+.navbar-brand-home {
+	font-size: 25px;
+    text-decoration: none;
+    height: 30px;
+    display: inline-block;
+    margin: 20px;
+}
+.navbar-nav-home {
+	margin: 1px;
+    padding: 2px;
+}
+.anchor-cl{
+    text-decoration: none;
+}
 #indian-beauty {
 	text-align: center;
 	font-weight: 900;
@@ -46,27 +69,15 @@ h4 {
 /*--------------review end---*/
 
 /*----------------------------------------home nav*/
-.navbar-brand-home {
-	padding-right: 20px;
-	font-size: 30px;
-	text-align: center;
-}
 
-#navbar-nav-home {
-	text-align: center;
-	font-size: 110%;
-	letter-spacing: 2px;
-	display: inline-block;
-}
+
+
 
 .sing-link {
 	color: red;
 }
 
-.nav-home {
-	background-color: orange;
-	text-align: center;
-}
+
 
 #navbar-nav-home li {
 	display: inline-block;
@@ -74,55 +85,54 @@ h4 {
 }
 /*--------------slideshow---*/
 
-.slideShow{
-	max-width: 100%;
-    height: 50%;
-    padding: ;overflow: auto;
+.slideShow-container{
+	padding: 0;
+    margin: auto;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 100%;
 }
 .slide-img{
-	width: 950px;
-	height: 600;
-	position: relative;
-	overflow: hidden;
-	padding: 3px;
-	border: #666 solid 1px;
+	padding: 3px, 2px, 3px, 2px;
+	
 }
 .slide-img img{
 	display: none;
 	width: 950px;
 	height: 600px;
+    
 }
 .slide-img img.active{
 	display: inline-block;
+    
 }
-.prev,
-.next {
+.prev-next {
 	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	margin-top: -22px;
-	padding: 16px;
 	font-weight: bold;
-	font-size: 18px;
-	
+    color: red;
+	font-size: 30px;
+	text-align: center;
+    padding-top: 21px;
+    padding-bottom: 21px;
 }
-
 .next {
-	right: 0;
 	border-radius: 3px 0 0 3px;
 	z-index: 100;
+    margin: 0;
+    padding: 25px;
+
 }
 .prev {
-	left: 0;
 	border-radius: 3px 0 0 3px;
 	z-index: 100;
+    margin: 0;
+    padding: 25px;
 }
 
 /*--Hover "buttons"--*/
-.prev,
-.next {
-	background-color: rgba(0, 0, 0, 0.2);
+.prev-next .prev:hover ,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 /*--------------end slideshow---*/
@@ -164,10 +174,12 @@ h3 {
 	text-transform: uppercase;
 }
 /*---------------------------------------history-*/
-.hampi-story {
-	background-color: #D12376;
-	margin: 0;
+#hampi-history {
+	background-color: rgba(0, 0, 0, 0.6);
+	margin: auto;
 	padding: 0;
+    max-width: 100%;
+    color: yellow;
 
 }
 .info {
@@ -209,36 +221,43 @@ h3 {
 	width: 50%;
 }
 
-/*---------------------------------------offert-indexPage-*/
-
-.learn-more{
-	text-align: center;
-	background-color: #46D1FF;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-left: 450px;
-	margin-right: 450px;
-	border: 2px solid;
-	font-family:"Indie flower", sans-serif;
-	font-weight: 900;
-	
-}
-
-.learn-more a{
-	color: #fafafa;
-}
-map-style {
-	background-color: #95CDE8;
+/*---------------------------------------offert Page-*/
+#travel-trips{
+    background-color: rgba(0, 0, 0, 0.6);
+	margin: auto;
 	padding: 0;
-	margin: 0;
-	height: 350px;
+    max-width: 100%;
 }
 
-#map-locations {
+.read-more{
+	text-align: center;
+	margin:auto;
+	padding: 0;
+	font-weight: 900;
+    font-size: 40px;
+}
+
+.read-more a{
+	color: #8f8484;
+    padding-top: 25px;
+    padding-bottom: 25px
+
+}
+#map-style {
+	background-color:  rgba(0, 0, 0, 0.6);
+	padding: 0;
+	margin: auto;
+	height: 350px;
+    max-width: 100%;
+    
+}
+
+.map-locations {
 	height: 400px;
-	width: 100%;
+	width: 100px;
 	border-radius: 30px;
 	margin-bottom: 15px;
+   
 }
 
 .travel-title {
@@ -246,12 +265,14 @@ map-style {
 	margin: 0;
 	padding-top: 1em;
 	padding-bottom: 1em;
+    color: #8f8484;
 	font-size: Oswald;
 	font-weight: 400;
 }
 
-#travel-offert {
+.travel-offert {
 	text-align: center;
+    
 }
 
 .offerts {

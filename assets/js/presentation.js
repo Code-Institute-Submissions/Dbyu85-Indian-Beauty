@@ -34,8 +34,8 @@ $(document).ready(function () {
 });
 
 function initMap() {
-				var map = new google.maps.Map(document.getElementById('map-locations'), {
-					zoom: 6,
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom: 4,
 					center: {
 						lat: 20.593684,
 						lng: 78.96288
@@ -47,19 +47,7 @@ function initMap() {
 				var locations = [{
 						lat: 15.335013,
 						lng: 76.460024
-					},
-					{
-						lat: 15.335015,
-						lng: 76.459998
-					},
-					{
-						lat: 15.34231,
-						lng: 76.475235
-					},
-					{
-						lat: 15.334745,
-						lng: 76.462146
-					},
+					}
 				];
 
 				var markers = locations.map(function(location, i) {

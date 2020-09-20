@@ -43,7 +43,7 @@
 			</nav>
 		</div>
 	</header>
-
+	<!--------------------------------------------------slideshow container -->
 	<section class="container-fluid">
 		<div class="slideShow-container row">
 			<div class="slide-img col-md-12">
@@ -65,19 +65,20 @@
 
 	<section class="container-fluid">
 		<div class="row " id="hampi-history">
-			<div class="col intro-hampi" id="text">
-				<h2 class="title uppercase">About Hampi</h2>
-				<article class="info">
-					The synonym Hampi—traditionally known as Pampa-kshetra, Kishkindha-kshetra or Bhaskara-kshetra—is
+			<div class="col-md-12 intro-hampi">
+				<h2 class="title uppercase col-md-12">About Hampi</h2>
+				<article class="col-sm-8 article">
+					The synonym Hampi—traditionally known as Pampa-kshetra, Kishkindha-kshetra or
+					Bhaskara-kshetra—is
 					derived from Pampa, another name of the goddess Parvati in Hindu theology.
 					<br>
 					Hampi or Hampe (in Kannada), also referred to as the Group of Monuments at Hampi, is a UNESCO World Heritage Site located in east-central Karnataka, India. It became the pilgrimage centre of the Hindu religion. It was the capital of Vijayanagara Empire in the 14th century. With numerous temples, farms and trading markets. By 1500 CE, Hampi-Vijayanagara was the world's second-largest medieval-era city after Beijing, and probably India's richest at that time, attracting traders from Persia and Portugal.The Vijayanagara Empire was defeated by a coalition of Muslim sultanates; its capital was conquered, pillaged and destroyed by sultanate armies in 1565, after which Hampi remained in ruins.
 				</article>
-					<div class="hampi-map-image">
-						<img src="assets/images/map.webp" alt="location" />
+				<div class="col-sm-4 hampi-map-image">
+					<img src="assets/images/map.webp" alt="location" />
 				</div>
-					</div>
 			</div>
+		</div>
 	</section>
 
 	<section class="container-fluid trip">
@@ -119,54 +120,54 @@
 			</div>
 		</div>
 	</section>
-
-	<section class="container-fluid">
-		<div class="row ">
+	<!--map container-->
+	<section class="container-fluid ">
+		<div class="row no-gutters ">
 			<div class="col-md-12 map-container">
-                <div id="map"></div>
+				<div id="map"></div>
 			</div>
 		</div>
 	</section>
-
+	<!---->
+	<!--Footer container-->
 	<footer class="container-fluid ">
 		<div class="row social-media ">
-			<div class="col bg-footer ">
-				<nav id="navbar">
-					<ul id="navbar-nav-footer">
-						<li class="nav-item active">
-							<a class="nav-link-footer" target="_blank" href="terms.html"> Terms & Conditions</a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link-footer" target="_blank" href="terms.html">Ordering & Payment</a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link-footer" target="_blank" href="terms.html">Privacy policy</a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link-footer" target="_blank" href="faq.html">FAQ</a>
-						</li>
-						<h5 class="nav-item social">social media</h5>
-						<li class="nav-item active">
-							<a target="_blank" href="">
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-							</a>
-						</li>
-						<li class="nav-item active">
-							<a target="_blank" href="">
-								<i class="fa fa-instagram" aria-hidden="true"></i>
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
+			<nav id="navbar" class="col-md-12">
+				<ul class="navbar-nav-footer">
+					<li class="nav-item active">
+						<a class="nav-link-footer" href="terms.html"> Terms & Conditions</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link-footer" href="terms.html">Ordering & Payment</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link-footer" href="terms.html">Privacy policy</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link-footer" href="faq.html">FAQ</a>
+					</li>
+
+					<h5 class="nav-item social">social media</h5>
+					<li class="nav-item active">
+						<a target="_blank" href="#">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="nav-item active">
+						<a target="_blank" href="#">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
 	</footer>
 	<script
 		src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
 	</script>
 	<script defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_QuQ_ARJVJmhjgCWCJ4yl89V1VsCSnCY&callback=initMap">
-    </script>
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_QuQ_ARJVJmhjgCWCJ4yl89V1VsCSnCY&callback=initMap">
+	</script>
 	<script type='text/javascript' src="assets/js/presentation.js">
 	</script>
 </body>

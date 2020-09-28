@@ -9,13 +9,15 @@ body {
 	background-size: cover;
 }
 #home-page{
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 0;
     margin: auto;
     max-width: 100%;
 }
 .nav-home { 
-	background-color: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.6);
 	text-align: center;
+    
 }
 .navbar-brand-home {
 	font-size: 25px;
@@ -31,6 +33,12 @@ body {
 .anchor-cl{
     text-decoration: none;
     color: #b69d9d;
+}
+.anchor-cl:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    text-decoration: none;
+    color:  rgba(211, 205, 151, 0.952);
 }
 #indian-beauty {
 	text-align: center;
@@ -82,17 +90,16 @@ h4 {
 .slideShow-container{
 	padding: 0;
     margin: auto;
-    position: relative;
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
     max-width: 100%;
 }
-.slide-img{
-	padding: 3px, 2px, 3px, 2px;	
-}
 .slide-img img{
 	display: none;
+    padding-top: 15px;
 	width: 950px;
 	height: 600px;
+    border-radius: 25px;
 }
 .slide-img img.active{
 	display: inline-block;
@@ -204,14 +211,83 @@ h3 {
     box-shadow: 3px 1.5px 3px 6px #b69d9d;
 }
 
+/*---------------------------------------Map container-*/
+.map-container{
+    position: relative;
+    background-color:  rgba(0, 0, 0, 0.6);
+    margin: auto;
+    padding: 0;
+    height: 550px;
+}
+ #map{
+     position: relative;
+     left: 250px;
+     width: 750px;
+     height: 450px;
+     margin: 0;
+     padding-bottom: 115px;
+     box-shadow: 5px 2.5px 5px 8px #b69d9d;
+     border-radius: 25px;
+     
+}
+/*-------------------------------*/
 /*---------------------------------------offert Page-*/
-#travel-trips{
+#travel-container{
     background-color: rgba(0, 0, 0, 0.6);
 	margin: auto;
 	padding: 0;
     max-width: 100%;
 }
+.travel-title {
+	text-align: center;
+	margin: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+    color: #8f8484;
+	font-weight: 400;
+}
 
+.travel-offert {
+    margin: auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+.offerts {
+    height: 450px;
+	margin: auto;
+	padding: 0;
+    
+}
+.offerts img{
+    max-width: 100%;
+    height: auto;   
+    padding: 10px 5px 5px 10px;
+    text-align: center;
+    margin: auto;  
+    border-radius: 0 25px 25px 25px;
+}
+.offert1{
+    background-color: aliceblue;
+    font-weight: 700;
+    padding: 0;
+    margin: auto;
+    border-radius: 0 25px 25px 25px;
+}
+.offert2{
+	background-color: aliceblue;
+	font-weight: 700;
+    padding: 0;
+    margin: auto;
+    border-radius: 0 25px 25px 25px;
+}
+.offert3{
+	background-color: aliceblue;
+	font-weight: 700;
+    padding: 0;
+    margin: auto;
+    border-radius: 0 25px 25px 25px;
+}
 .read-more{
 	text-align: center;
 	margin:auto;
@@ -220,72 +296,28 @@ h3 {
     padding-top: 25px;
     padding-bottom: 25px;
 }
-
+.trips{
+    text-align: center;
+    margin: 0;
+    padding: 10px 5px 10px 5px;
+    color: rgba(78, 69, 69, 0.6);
+}
+.trip-text{
+    padding: 10px;
+}
+.price{
+    text-align: center;
+}
+.descount{
+    text-align: center;
+    font-size: 5px;
+    margin: 0;
+    padding-top: 25px;
+}
 .read-more a{
 	color: #8f8484;
     padding-top: 25px;
-    padding-bottom: 25px
-
-}
-/*---------------------------------------Map container-*/
-.map-container{
-    position: relative;
-    background-color:  rgba(0, 0, 0, 0.6);
-    margin: auto;
-    padding: 0;
-    
-}
- #map{
-     position: relative;
-     left: 250px;
-     width: 750px;
-     height: 450px;
-     margin: 0;
-     
-     padding-bottom: 115px;
-     box-shadow: 5px 2.5px 5px 8px #b69d9d;
-     border-radius: 25px;
-     
-}
-/*-------------------------------*/
-
-.travel-title {
-	text-align: center;
-	margin: 0;
-	padding-top: 1em;
-	padding-bottom: 1em;
-    color: #8f8484;
-	font-size: Oswald;
-	font-weight: 400;
-}
-
-.travel-offert {
-	text-align: center;
-    
-}
-
-.offerts {
-	margin-left: 85px;
-	font-family: 'Indie Flower', cursive;
-}
-.offerts img{
-	margin-top: 15px;
-}
-.offert1{
-	margin-top: 10px;
-	background-color: aliceblue;
-	color: #FF210D;
-	font-weight: 900;
-}
-.offert2{
-	background-color: aliceblue;
-	color: #A00DFF;
-	font-weight: 900;
-}
-.offert3{
-	background-color: aliceblue;
-	color: #CE0CE8;
-	font-weight: 900;
+    padding-bottom: 25px;
 }
 
 
@@ -295,24 +327,6 @@ h3 {
 	padding: 0;
 	color:blue;
 	
-}
-.offer-pack{
-	padding-top: 50px
-}
-.package-pic{
-	padding-top: 10px;
-}
-.list-inline-package{
-	padding-left: 5px;
-}
-.list-inline-package li{
-	display: inline-block;
-	letter-spacing: 4px;
-}
-.pack-link{
-	padding-top: 40px;
-	padding-right: 10px;
-	white-space: pre-line;
 }
 
 
@@ -326,36 +340,66 @@ h3 {
 }
 
 /*------------------------------footer*/
-.social-media {
-    background-color:  rgba(0, 0, 0, 0.6);
-    margin: auto;
-    padding: 0;
+.social-container{
+    background-color: rgba(0, 0, 0, 0.6);
+	margin: auto;
+	padding: 0;
     max-width: 100%;
-	height: 150px;
-    
+    height: 190px;
+   
 }
 #navbar{
-    padding: 0;
     margin: auto;
-    max-width: 100%;
-    font-size: 19px;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 25px;
-    font-size: 18px;
-}
-.navbar-nav-footer{
-    text-decoration: none;
-    text-align: center; 
+    padding: 0;
+    height: 120px;
+    background: rgba(0, 0, 0, 0.6);
     
 }
-.nav-item{
-    display: inline-block;
-    padding: 10px;
-    padding-top: 25px;
-      
+.navbar-nav-footer{
+     text-align: center;
+     padding-top: 30px;
+     font-size: 20px;
+     
 }
-.nav-item a{
-    color: #b69d9d;
+.nav-link-footer{
+     color: #b69d9d;
+     padding: 25px;
+}
+.nav-item{
+    display: inline-block;  
+}
+.nav-link-footer:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    text-decoration: none;
+    color:  rgba(211, 205, 151, 0.952);
+}
+.social-links{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    height: 80px;
+}
+.fa {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    padding: 9px;
+    padding-bottom: 4px;
+    font-size: 25px;
+}
+ .fa-facebook{
+     border-radius: 10px;
+     color:  #b69d9d;
+}
+.fa-instagram{
+     border-radius: 10px;
+     color:  #b69d9d;
+}
+.fa-facebook:hover, .fa-instagram:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    text-decoration: none;
+    color:  rgba(211, 205, 151, 0.952);
 }
 /*------------------------------*/
 

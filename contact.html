@@ -16,29 +16,29 @@
 </head>
 
 <body>
-	<header>
-		<div id="title-image" class="row header container-fluid-header">
-			<div class="col">
+	<header class="container-fluid">
+		<div id="home-page" class="row">
+			<div class="col-sm-12">
 				<h1 id="indian-beauty">Indian Beauty</h1>
 			</div>
+			<nav class="nav-home col-md-12">
+				<ul class="navbar-nav-home">
+					<li class="navbar-brand-home"><a class="anchor-cl" href="index.html">Home</a></li>
+					<li class="navbar-brand-home">
+						<a class="anchor-cl" href="review.html">Review</a>
+					</li>
+					<li class="navbar-brand-home">
+						<a class="anchor-cl" href="package.html">Our Package</a>
+					</li>
+					<li class="navbar-brand-home">
+						<a class="anchor-cl" href="contact.html">Contact</a>
+					</li>
+					<li class="navbar-brand-home">
+						<a class="anchor-cl" href='#' class='sing-link'>Log in</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
-		<nav class="nav-home">
-			<a class="navbar-brand-home" href="index.html">Home</a>
-			<ul id="navbar-nav-home">
-				<li>
-					<a href="review.html" target="_blank">Review</a>
-				</li>
-				<li>
-					<a href="package.html" target="_blank">Our Package</a>
-				</li>
-				<li>
-					<a href="contact.html" target="_blank">Contact</a>
-				</li>
-				<li>
-					<a href='#' target="_blank" class='sing-link'>Log in</a>
-				</li>
-			</ul>
-		</nav>
 	</header>
 
 	<section class="container-fluid">
@@ -61,72 +61,33 @@
 		</div>
 	</section>
 
-
-	<footer class="container-fluid no-gutters ">
-				<div class="row social-media ">
-			<div class="col bg-footer ">
-				<nav id="navbar">
-					<ul id="navbar-nav-footer">
-						<li class="nav-item active">
-							<a class="nav-link-footer" target="_blank" href="terms.html"> Terms & Conditions</a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link-footer" target="_blank" href="terms.html">Ordering & Payment</a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link-footer" target="_blank" href="terms.html">Privacy policy</a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link-footer" target="_blank" href="faq.html">FAQ</a>
-						</li>
-						<h5 class="nav-item social">social media</h5>
-						<li class="nav-item active">
-							<a target="_blank" href="">
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-							</a>
-						</li>
-						<li class="nav-item active">
-							<a target="_blank" href="">
-								<i class="fa fa-instagram" aria-hidden="true"></i>
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
+<!--Footer container-->
+	<footer class="container-fluid ">
+		<div class="row social-container">
+			<nav id="navbar" class="col-md-12">
+				<ul class="navbar-nav-footer">
+					<li class="nav-item active">
+						<a class="nav-link-footer" href="terms.html"> Terms & Conditions</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link-footer" href="terms.html">Ordering & Payment</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link-footer" href="terms.html">Privacy policy</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link-footer" href="faq.html">FAQ</a>
+					</li>
+				</ul>
+                <div class="col-md-12 social-links">
+                    <a target="_blank" href="#"class="fa fa-facebook" aria-hidden="true">
+					</a>
+                    <a target="_blank" href="#"class="fa fa-instagram" aria-hidden="true">
+					</a>
+                </div>
+			</nav>
 		</div>
-		<script type='text/javascript' src="assets/js/presentation.js">
-		</script>
-		<script>
-			function initMap() {
-				var map = new google.maps.Map(document.getElementById('map-locations'), {
-					zoom: 13,
-					center: {
-						lat: 15.335013,
-						lng: 76.460024
-					}
-				});
-
-				var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-
-				var locations = [{
-
-				}];
-
-				var markers = locations.map(function(location, i) {
-					return new google.maps.Marker({
-						positon: location,
-						label: labels[i % labels.length]
-					});
-				});
-
-			}
-
-		</script>
-		<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
-		</script>
-		<script async defer src=" https://maps.googleapis.com/maps/api/js?key=AIzaSyCakLpVXGzsGN-K-pgiqhJJafXOa_U4-C4&callback=initMap" type="text/javascript"></script>
-		<script type='text/javascript' src="assets/js/presentation.js">
-		</script>
+		
 	</footer>
 
 </body>

@@ -40,12 +40,13 @@
 			</nav>
 		</div>
 	</header>
+
 	<section class="container-fluid">
-		<div class="row packages">
+		<div class="row packages-container">
 			<div class="col-sm-4 package-pic">
 				<img src='assets/images/images%20(1).jpg' style="width: 100%" />
 			</div>
-			<div class='col-md-8 package'>
+			<div class='col-md-8 package-info'>
 				<h5 class="offer-pack ">Hampi<p>
 						This offert have the base of a relax and confortable staying. <br>
 						<br>
@@ -74,16 +75,12 @@
 				</ul>
 			</div>
 		</div>
-		<div class="destination uppercase">Destinations
-
-		</div>
 	</section>
 
-	<section class="container-fluid">
-		<div class="row">
-			<div class="col map-style">
-				<div id='map-locations'>
-				</div>
+	<section class="container-fluid ">
+		<div class="row no-gutters map-container">
+			<div class="col-md-12 map">
+				<div id="map"></div>
 			</div>
 		</div>
 	</section>
@@ -116,5 +113,13 @@
 		</div>
 		
 	</footer>
-
-</body></html>
+    <script
+		src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+	</script>
+	<script defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_QuQ_ARJVJmhjgCWCJ4yl89V1VsCSnCY&callback=initMap">
+	</script>
+	<script type='text/javascript' src="assets/js/presentation.js">
+	</script>
+</body>
+</html>

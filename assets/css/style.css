@@ -46,51 +46,11 @@ body {
 	color: #b69d9d;
 	padding-top: 10%;
 }
-/*--------------review---*/
-.clients-review-container{
-    padding: 0;
-    margin: auto;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.6);
-    max-width: 100%;
-}
-.client-container {
-	padding-top: 25px;
-    display: inline-block;
-	text-align: center;
-    color: #b69d9d;
-}
-.review-form{
-    padding-top: 25px;
-	text-align: center;
-    color: #b69d9d;
-}
-.clients,
-h4 {
-	display: inline-block;
-	font-weight: 100;
-	font-family: sans-serif;
-	font-size: 10px;
-}
-
-.client img {
-	width: 30px;
-	height: 30px;
-	border-radius: 50%;
-}
-/*--------------review end---*/
 
 /*----------------------------------------home nav*/
-
-
-
-
 .sing-link {
 	color: red;
 }
-
-
-
 #navbar-nav-home li {
 	display: inline-block;
 	text-align: center;
@@ -142,41 +102,6 @@ h4 {
 	background-color: rgba(0, 0, 0, 0.6);
 }
 
-/*----------------------------------------containers*/
-
-.clients-review {
-	position: relative;
-	display: inline-block;
-	text-align: center;
-	background-color: antiquewhite;
-	padding-top: 100px;
-	padding-left: 30px;
-	padding-right: 30px;
-}
-
-.review {
-	padding-top: 10px;
-}
-
-.form-review {
-	width: 50%;
-	border-radius: 15px;
-
-
-}
-
-.form-review,
-h3 {
-	display: inline-block;
-}
-
-.submit {
-	position: absolute;
-}
-
-.uppercase {
-	text-transform: uppercase;
-}
 /*---------------------------------------history-*/
 #hampi-history {
 	background-color: rgba(0, 0, 0, 0.6);
@@ -330,13 +255,63 @@ h3 {
     padding-bottom: 25px;
 }
 
+/*--------------review-----------------*/
+.clients-review-container{
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 100%;
+}
+.client-container {
+	padding-top: 25px;
+    display: inline-block;
+	text-align: center;
+    color: #b69d9d;
+}
+.review-form{
+    padding-top: 25px;
+	text-align: center;
+    color: #b69d9d;
+}
+.form-review {
+	width: 50%;
+	border-radius: 15px;
+}
+.clients,
+h4 {
+	display: inline-block;
+	font-weight: 100;
+	font-family: sans-serif;
+	font-size: 10px;
+}
+
+.client img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+/*--------------------------------------------------------*/
 
 /*------------------------------package page*/
-.packages {
-	margin: 0;
+.packages-container{
+	background-color: rgba(0, 0, 0, 0.6);
+	margin: auto;
 	padding: 0;
-	color:blue;
-	
+    max-width: 100%;
+	color: #b69d9d;
+}
+.package-info{
+    background-color: rgba(0, 0, 0, 0.6);
+	margin: auto;
+	padding: 0;
+    max-width: 100%;
+}
+.package-pic{
+    background-color: rgba(0, 0, 0, 0.6);
+	margin: auto;
+	padding: 0;
+    max-width: 100%;
 }
 
 

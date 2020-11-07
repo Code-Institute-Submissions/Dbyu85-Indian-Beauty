@@ -47,14 +47,24 @@ body {
 	padding-top: 10%;
 }
 /*--------------review---*/
-.clients-review{
-	display: inline-block;
-	text-align: center;
+.clients-review-container{
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 100%;
 }
-.client {
+.client-container {
 	padding-top: 25px;
+    display: inline-block;
+	text-align: center;
+    color: #b69d9d;
 }
-
+.review-form{
+    padding-top: 25px;
+	text-align: center;
+    color: #b69d9d;
+}
 .clients,
 h4 {
 	display: inline-block;

@@ -433,19 +433,52 @@ h4 {
     text-decoration: none;
     color:  rgba(211, 205, 151, 0.952);
 }
-/*------------------------------*/
+
+/*------------------------------Terms-conditions*/
+.terms-container{
+    padding: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 100%;
+    height: auto;
+    color: #b69d9d;
+}
+.terms-conditions-container, .ordering-payment-container, .privacy-policy-container{
+    padding: 15px;
+    margin: auto;
+    background-color: aliceblue;
+    color: #b69d9d;
+    text-align: center;
+}
+.terms-answers{
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+}
 
 /*------------------------------faq*/
+.faq{
+    padding: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 100%;
+    height: auto;
+    color: #b69d9d;
+    text-align: center;
+}
 .faq h4{
 	display: block;
 	font-size: 20px;
-	font-family: cursive;
 }
 .answer{
-	font-size: 25px;
+	font-size: 20px;
+    margin: auto;
+    padding: 35px;
+    background-color: azure;
 }
 .faq-question{
-	color: blue;
+    
+	color: rgb(169, 169, 184);
 	cursor: pointer;
 }
 

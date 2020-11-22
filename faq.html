@@ -5,10 +5,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		type="text/css" />
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
@@ -16,45 +19,42 @@
 </head>
 
 <body>
-	<header>
-		<div id="title-image" class="row header container-fluid-header">
-			<div class="col">
+	<header class="container-fluid">
+		<div id="home-page" class="row">
+			<div class="col-sm-12">
 				<h1 id="indian-beauty">Indian Beauty</h1>
 			</div>
+			<nav class="nav-home col-md-12">
+				<ul class="navbar-nav-home">
+					<li class="navbar-brand-home"><a class="anchor-cl" href="index.html">Home</a></li>
+					<li class="navbar-brand-home">
+						<a class="anchor-cl" href="review.html">Review</a>
+					</li>
+					<li class="navbar-brand-home">
+						<a class="anchor-cl" href="package.html">Our Package</a>
+					</li>
+					<li class="navbar-brand-home">
+						<a class="anchor-cl" href="contact.html">Contact</a>
+					</li>
+					<li class="navbar-brand-home">
+						<a class="anchor-cl" href='#' class='sing-link'>Log in</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
-		<nav class="nav-home">
-			<a class="navbar-brand-home" href="index.html">Home</a>
-			<ul id="navbar-nav-home">
-				<li>
-					<a href="review.html" target="_blank">Review</a>
-				</li>
-				<li>
-					<a href="package.html" target="_blank">Our Package</a>
-				</li>
-				<li>
-					<a href="contact.html" target="_blank">Contact</a>
-				</li>
-				<li>
-					<a href='#' target="_blank" class='sing-link'>Log in</a>
-				</li>
-			</ul>
-		</nav>
 	</header>
 
 	<section class="container-fluid ">
 		<div class="faq">
 			<h1> FAQs</h1>
 			<h4>Is a visa required to visit India?</h4>
-
 			<div class="answer">
 				<p>In the hot Indian summers we recommend light cotton tops, shorts and trousers. If you are travelling to any of India’s national parks, remember to pack some long-sleeved cotton tops for game drives. In the cold winter months, temperature may drop drastically, therefore warm clothing would be essential. As Indian landscape is diverse we advise to include the clothes by taking care of the weather and temperature of the area on the particular season. Besides, when visiting religious monuments and shrines you may need to dress formally, so both men and women should pack some long skirts and pants.</p>
 			</div>
 
 			<h4>Are vaccinations required?</h4>
-
 			<div class="answer">
 				<p>You may need to take malaria prophylactics or have some other vaccines like polio, typhoid, and so on before you travel. But before you plan something we strongly recommend that first you visit your doctor at least four weeks before the date of the departure.For up-to-date information regarding vaccination and medical precaution should be performed before hiting the Indian street.</p>
-
 			</div>
 
 			<h4>Do the Indians speak English?</h4>
@@ -94,41 +94,33 @@
 		</div>
 	</section>
 
-
-
-	<footer class="container-fluid no-gutters ">
-		<div class="row social-media ">
-			<div class="col bg-footer ">
-				<nav id="navbar">
-					<ul id="navbar-nav-footer">
-						<li class="nav-item active">
-							<a class="nav-link-footer" target="_blank" href="terms.html"> Terms & Conditions</a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link-footer" target="_blank" href="terms.html">Ordering & Payment</a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link-footer" target="_blank" href="terms.html">Privacy policy</a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link-footer" target="_blank" href="faq.html">FAQ</a>
-						</li>
-						<h5 class="nav-item social">social media</h5>
-						<li class="nav-item active">
-							<a target="_blank" href="">
-								<i class="fa fa-facebook" aria-hidden="true"></i>
-							</a>
-						</li>
-						<li class="nav-item active">
-							<a target="_blank" href="">
-								<i class="fa fa-instagram" aria-hidden="true"></i>
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
+	<footer class="container-fluid ">
+		<div class="row social-container">
+			<nav id="navbar" class="col-md-12">
+				<ul class="navbar-nav-footer">
+					<li class="nav-item active">
+						<a class="nav-link-footer" href="terms.html"> Terms & Conditions</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link-footer" href="terms.html">Ordering & Payment</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link-footer" href="terms.html">Privacy policy</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link-footer" href="faq.html">FAQ</a>
+					</li>
+				</ul>
+                <div class="col-md-12 social-links">
+                    <a target="_blank" href="#"class="fa fa-facebook" aria-hidden="true">
+					</a>
+                    <a target="_blank" href="#"class="fa fa-instagram" aria-hidden="true">
+					</a>
+                </div>
+			</nav>
 		</div>
-		<script src="assets/js/presentation.js"></script>
+		
 	</footer>
+    <script src="assets/js/presentation.js"></script>
 
 </body></html>

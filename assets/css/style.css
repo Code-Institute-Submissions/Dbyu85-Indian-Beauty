@@ -258,34 +258,64 @@ body {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
     max-width: 100%;
+    height: auto;
 }
 .client-container {
-	padding-top: 25px;
+    position: relative;
+    margin: auto;
+	padding: 0;
+    height: auto;
+    max-width: 100%;   
+}
+.client{
+    background-color: rgba(224, 205, 205, 0.6);
+    margin: 15px;
+    padding: 0;
+    height: auto;
+    border-radius: 0 25px 25px 25px;
+}
+.client img {
+	width: 105px;
+	height: 105px;
+	border-radius: 0 25px 25px 25px;
+}
+.clients,
+h4{
+    padding:0;
+	font-weight: 700;
+	font-family: sans-serif;
+	font-size: 25px;
+    color: black;
+}
+.clients, p{
+    margin: auto;
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+}
+.clients, img, h4, p{
     display: inline-block;
+    margin:15px;
+    
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.review-form{
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+    padding: 5px;
 	text-align: center;
     color: #b69d9d;
 }
-.review-form{
-    padding-top: 25px;
-	text-align: center;
-    color: #b69d9d;
+.review-form h2{
+    font-weight: 600;
+    
 }
 .form-review {
 	width: 50%;
 	border-radius: 15px;
-}
-.clients,
-h4 {
-	display: inline-block;
-	font-weight: 100;
-	font-family: sans-serif;
-	font-size: 10px;
-}
-
-.client img {
-	width: 30px;
-	height: 30px;
-	border-radius: 50%;
 }
 
 /*------------------------------package page*/

@@ -63,12 +63,13 @@ body {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
     max-width: 100%;
+	height: auto;
 }
 .slide-img img{
 	display: none;
     padding-top: 15px;
-	width: 950px;
-	height: 600px;
+    height: 350px;
+    width: 550px;
     border-radius: 25px;
 }
 .slide-img img.active{

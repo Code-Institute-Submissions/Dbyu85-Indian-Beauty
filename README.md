@@ -2,26 +2,48 @@
 Holiday resource
 *The idea of this project is to creat a webpage where the client can find different type of vacation package where is everything already serve with all the different activities and plauser in one click.*
 
+## Mock-up
+
+[mockup](https://github.com/Dbyu85/Indian-Beauty/tree/master/assets/images/mockup)
+
 ## Gidpod
 For contributions, advice and access, just click the link bellow.
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Dbyu85/Indian-Beauty)
 
-Access re
+This presentation and acceess is only for learning purpose, Public access will be limited(Features to implement).
 
 ## UX
-* The focus is for client that dont have much time to coustumize and spend planing for there holidays, the project is designe with different obtions depending of how much time they have and money.
+* The focus of this webpage and API is for client that don´t have much time to coustumize and spend to plan for there holidays, to provide an easy way, the project is designed with different options depending of how much time they have and want to spend.
 
-[mockup](https://github.com/Dbyu85/Indian-Beauty/tree/master/assets/images/mockup)
+## UX structure
+### Home page.
+### Review page.
+### Package offert page.
+### Contact page.
+### Login page.
 
-* The Webside structure have a:
-  - slideShow img to give a visual idea of the webside.
-* A navbar with a:
-  - Landing page, Custumors review, our Package offert, Contact page, Login.
- * Location Introduction.
- * Small package offert with a *read more* link.
- * Holiday location Google Map.
- * Footer with:
+
+## The homepage structure have:
+* slideShow img.
+  - To give a visual idea of the places they will visit.
+* A navbar with:
+  - Custumors landing page, Custumors review, Package offert, Contact page, Login page(features to implement).
+* About:
+  - An paragraph about the old city and small img of India.
+* Package examples:
+  - three different choices examples with a *read more* link to redirect custumors to a new page with more choices and descriptions of each package.
+* Location Map of the country.
+* Footer:
+  - The footer is base of different terms to custumors service, FAQs question and social media page.
+  
+## Review page:
+  - Custumors opinion and form to add new review. 
+## Package page:
+  - 
+ 
+* Holiday location Google Map.
+* Footer with:
   - Social Media link: Facebook and Instagram.
   - Term and Conditions
   - FQA, Privacy, Policy

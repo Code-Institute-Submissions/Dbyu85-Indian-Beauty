@@ -1,9 +1,13 @@
-
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Dbyu85/Indian-Beauty)
-
 # Indian-Beauty
 Holiday resource
 *The idea of this project is to creat a webpage where the client can find different type of vacation package where is everything already serve with all the different activities and plauser in one click.*
+
+## Gidpod
+For contributions, advice and access, just click the link bellow.
+
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Dbyu85/Indian-Beauty)
+
+Access re
 
 ## UX
 * The focus is for client that dont have much time to coustumize and spend planing for there holidays, the project is designe with different obtions depending of how much time they have and money.

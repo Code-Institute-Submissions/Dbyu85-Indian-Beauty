@@ -64,11 +64,25 @@ This presentation and acceess is only for learning purpose, Public access will b
  
   - Features to implement.
   
+# Structure to be update:
+
+  - Slideshow.
+  - Review presentation.
+  - Package offert presentation on Home page and main package page.
+  - Package offert presentation button request and post.
+  - Add an Post/Request button into Package offer main page.
+  - API Google search enginge.
   
-## Features Left to Implement
-Another feature idea
--log in with facebook and google account.
-*
+# Features Left to Implement
+
+  - Public limit access into Gitpod Indian Beauty Repo.
+  - Access and Login into Facebook, Instagram and review (Review using Google or Facebook account).
+  - Map API access and Google Map search engine(on Review page).
+  - Choice button on all package offer.
+  - Package offert presentation button request and post.
+  
+  - Review Submit button Post.
+  -
 
 # Technologies Used
 * JQuery:to add events.

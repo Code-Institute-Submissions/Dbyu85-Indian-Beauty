@@ -1,4 +1,3 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Dbyu85/Indian-Beauty)
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Dbyu85/Indian-Beauty)
 
@@ -9,7 +8,7 @@ Holiday resource
 ## UX
 * The focus is for client that dont have much time to coustumize and spend planing for there holidays, the project is designe with different obtions depending of how much time they have and money.
 
-* ![mockup](/images/001.png)
+* ![mockup](https://github.com/Dbyu85/Indian-Beauty/blob/master/assets/images/mockup/001.jpg)
 
 * The Webside structure have a:
   - slideShow img to give a visual idea of the webside.

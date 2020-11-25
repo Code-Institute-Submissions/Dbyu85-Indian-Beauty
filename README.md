@@ -17,6 +17,7 @@ This presentation and acceess is only for learning purpose, Public access will b
 * The focus of this webpage and API is for client that don´t have much time to coustumize and spend to plan for there holidays, to provide an easy way, the project is designed with different options depending of how much time they have and want to spend.
 
 ## UX structure
+
 ### Home page.
 ### Review page.
 ### Package offert page.
@@ -24,7 +25,8 @@ This presentation and acceess is only for learning purpose, Public access will b
 ### Login page.
 
 
-## The homepage structure have:
+## Homepage Structure:
+
 * slideShow img.
   - To give a visual idea of the places they will visit.
 * A navbar with:
@@ -37,24 +39,38 @@ This presentation and acceess is only for learning purpose, Public access will b
 * Footer:
   - The footer is base of different terms to custumors service, FAQs question and social media page.
   
-## Review page:
-  - Custumors opinion and form to add new review. 
-## Package page:
-  - 
+## Review Structure:
+  
+  - Home Navbar.
+  - Custumors opinion and suggestions.
+  - A form for new reviewers and send buttom. 
+  - footer.
+  
+## Package Structure:
+  
+  - Home Navbar.
+  - Descriptions of each package.
+  - Google map for each package location (features to implement).
+  - Footer.
+  
+ ## Contact Structure:
  
-* Holiday location Google Map.
-* Footer with:
-  - Social Media link: Facebook and Instagram.
-  - Term and Conditions
-  - FQA, Privacy, Policy
-  - Ordering and Payment
+  - Home Navbar.
+  - Contact form with Name, Email and Question field.
+  - Footer.
+  
+ 
+ ## Login Structure:
+ 
+  - Features to implement.
+  
   
 ## Features Left to Implement
 Another feature idea
 -log in with facebook and google account.
 *
 
-## Technologies Used
+# Technologies Used
 * JQuery:to add events.
 * Bootstrap.
 * CSS.

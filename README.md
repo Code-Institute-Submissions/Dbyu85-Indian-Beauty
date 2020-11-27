@@ -14,7 +14,7 @@ For contributions, advice and access, just click the link bellow.
 This presentation and acceess is only for learning purpose, Public access will be limited(Features to implement).
 
 ## UX
-* The focus of this webpage and API is for client that don´t have much time to coustumize and spend to plan for there holidays, to provide an easy way, the project is designed with different options depending of how much time they have and want to spend.
+* The focus of this webpage and API is for client/clients that don´t have much time to coustumize and spend to plan for there holidays, to provide an easy way, the project is designed with different options depending of how much time they have and want to spend.
 
 ## UX structure
 
@@ -30,19 +30,19 @@ This presentation and acceess is only for learning purpose, Public access will b
 * slideShow img.
   - To give a visual idea of the places they will visit.
 * A navbar with:
-  - Custumors landing page, Custumors review, Package offert, Contact page, Login page(features to implement).
+  - Customers landing page, Customers review, Package offert, Contact page, Login page(features to implement).
 * About:
-  - An paragraph about the old city and small img of India.
+  - An paragraph about the old city and small map img of India.
 * Package examples:
-  - three different choices examples with a *read more* link to redirect custumors to a new page with more choices and descriptions of each package.
+  - three different choices example with a *read more* link to redirect customers to a new page with more choices and descriptions of each package.
 * Location Map of the country.
 * Footer:
-  - The footer is base of different terms to custumors service, FAQs question and social media page.
+  - The footer is base of different terms to customers service, FAQs question and social media page.
   
 ## Review Structure:
   
   - Home Navbar.
-  - Custumors opinion and suggestions.
+  - Customers opinion and suggestions.
   - A form for new reviewers and send buttom. 
   - footer.
   
@@ -76,12 +76,10 @@ This presentation and acceess is only for learning purpose, Public access will b
 # Features Left to Implement
 
   - Public limit access into Gitpod Indian Beauty Repo.
-  - Access and Login into Facebook, Instagram and review (Review using Google or Facebook account).
-  - Map API access and Google Map search engine(on Review page).
-  - Choice button on all package offer.
-  - Package offert presentation button request and post.
-  
-  - Review Submit button Post.
+  - Access and Login into Facebook, Instagram and review (Review using Google or Facebook account) functionality.
+  - Map API access and Google Map search engine(on Review page) functionality.
+  - Package offert presentation button request and post functionality.
+  - Review Submit button Post functionality.
   -
 
 # Technologies Used

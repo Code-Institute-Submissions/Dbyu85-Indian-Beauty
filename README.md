@@ -20,7 +20,7 @@ This presentation and acceess is only for learning purpose, Public access will b
 
 ### Home page.
 ### Review page.
-### Package offert page.
+### Our Package page.
 ### Contact page.
 ### Login page.
 
@@ -46,7 +46,7 @@ This presentation and acceess is only for learning purpose, Public access will b
   - A form for new reviewers and send buttom. 
   - footer.
   
-## Package Structure:
+## Our Package Structure:
   
   - Home Navbar.
   - Descriptions of each package.
@@ -71,25 +71,28 @@ This presentation and acceess is only for learning purpose, Public access will b
   - Package offert presentation on Home page and main package page.
   - Package offert presentation button request and post.
   - Add an Post/Request button into Package offer main page.
-  - API Google search enginge.
+  - API Google search engine.
   
-# Features Left to Implement
+# Features Left to Implement:
 
   - Public limit access into Gitpod Indian Beauty Repo.
   - Access and Login into Facebook, Instagram and review (Review using Google or Facebook account) functionality.
-  - Map API access and Google Map search engine(on Review page) functionality.
-  - Package offert presentation button request and post functionality.
   - Review Submit button Post functionality.
-  -
+  - Map API access and Google Map search engine(on Review page) functionality.
+  - Our Package presentation button request and post functionality.
 
-# Technologies Used
-* JQuery:to add events.
+# Technology Used:
+
+* JQuery.
 * Bootstrap.
+* font-awesome.
 * CSS.
 * Media Query.
 * JavaScript.
+* Google IPA
 
-## Testing
+# Testing
+
 * 1-index file:
 tested and work, but, have issue with map rendering.
 * 2-Review file:
@@ -101,19 +104,20 @@ static presentation.
 * 5-Login:
 not working, features to Implement to login with facebook and google account.
 
-## Deployment
+# Deployment
 
 * Hosting platform:
   - GitHub.
-  - Development:
-   
+* Development platform:
+  - Gitpod
    
 ## Credit
 
-* Use of w3 source, CodeInstitute, youtube tutorials:LearnWebCode, Traversy Media.*
+* Use of w3 source, CodeInstitute, youtube tutorials:
+  - LearnWebCode, Traversy Media.
 
-* Use of img: personal pic, unplash, google img.*
+* Use of img: personal pic, unplash, google img.
 
-*I nspiration: Hampi Tourist, solver-productions.com, holidity.com, google.*
+* Inspiration: Hampi Tourist, solver-productions.com, holidity.com, google.
 
-*contect: Wikipedia Hampi*
+* contect: Wikipedia Hampi.

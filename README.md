@@ -50,7 +50,7 @@ This presentation and acceess is only for learning purpose, Public access will b
   
   - Home Navbar.
   - Descriptions of each package.
-  - Google map for each package location (features to implement).
+  - Google map for each package location search engine(features to implement).
   - Footer.
   
  ## Contact Structure:
@@ -70,6 +70,7 @@ This presentation and acceess is only for learning purpose, Public access will b
   - Review presentation.
   - Package offert presentation on Home page and main package page.
   - Package offert presentation button request and post.
+  - font-awesome icone "spa"
   - Add an Post/Request button into Package offer main page.
   - API Google search engine.
   

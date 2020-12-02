@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en-US">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -13,16 +14,18 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    
 
 	<title>Indian Beauty</title>
 </head>
 
 <body>
 	<header class="container-fluid">
-		<div id="home-page" class="row">
-			<div class="col-sm-12 uppercase">
-				<h1 id="indian-beauty " >Indian Beauty</h1>
+		<div id="home-page" class="row uppercase">
+			<div class="col-sm-12">
+				<h1 id="indian-beauty">Indian Beauty</h1>
 			</div>
 			<nav class="nav-home col-md-12 uppercase">
 				<ul class="navbar-nav-home">
@@ -33,11 +36,14 @@
 					<li class="navbar-brand-home">
 						<a class="anchor-cl" href="package.html">Our Package</a>
 					</li>
+                    <li class="navbar-brand-home">
+						<a class="anchor-cl" href="pack.html">Offerts</a>
+					</li>
 					<li class="navbar-brand-home">
 						<a class="anchor-cl" href="contact.html">Contact</a>
 					</li>
 					<li class="navbar-brand-home">
-						<a class="anchor-cl" href='#' class='sing-link'>Log in</a>
+						<a class="anchor-cl" href="sing.html">Log in</a>
 					</li>
 				</ul>
 			</nav>
@@ -62,23 +68,20 @@
 				</div>
 			</div>
 	</section>
-
+    <!-----------------------------------------------Hampi History container -->
 	<section class="container-fluid">
 		<div class="row " id="hampi-history">
-			<div class="col-md-12 intro-hampi">
-				<h2 class="title uppercase col-md-12">About Hampi</h2>
-				<article class="col-sm-8 article">
-					The synonym Hampi—traditionally known as Pampa-kshetra, Kishkindha-kshetra or
-					Bhaskara-kshetra—is
-					derived from Pampa, another name of the goddess Parvati in Hindu theology.
+			<h2 class="title uppercase col-md-12">About</h2>
+			<article class="col-md-8 article-text">
+				The synonym Hampi—traditionally known as Pampa-kshetra,<br> Kishkindha-kshetra or Bhaskara-kshetra—is derived from Pampa, another name of the goddess Parvati in Hindu theology.
 					<br>
-					Hampi or Hampe (in Kannada), also referred to as the Group of Monuments at Hampi, is a UNESCO World Heritage Site located in east-central Karnataka, India. It became the pilgrimage centre of the Hindu religion. It was the capital of Vijayanagara Empire in the 14th century. With numerous temples, farms and trading markets. By 1500 CE, Hampi-Vijayanagara was the world's second-largest medieval-era city after Beijing, and probably India's richest at that time, attracting traders from Persia and Portugal.The Vijayanagara Empire was defeated by a coalition of Muslim sultanates; its capital was conquered, pillaged and destroyed by sultanate armies in 1565, after which Hampi remained in ruins.
-				</article>
-					<div class="col-sm-4 hampi-map-image">
-						<img src="assets/images/map.webp" alt="location" />
-				</div>
-					</div>
+				Hampi or Hampe (in Kannada),<br> also referred to as the Group of Monuments at Hampi, <br>is a UNESCO World Heritage Site located in east-central Karnataka India. <br>It became the pilgrimage centre of the Hindu religion. <br>It was the capital of Vijayanagara Empire in the 14th century. <br>With numerous temples, farms and trading markets. By 1500 CE, Hampi-Vijayanagara was the world's second-largest medieval-era city after Beijing, and probably India's richest at that time, attracting traders from Persia and Portugal.<br>The Vijayanagara Empire was defeated by a coalition of Muslim sultanates; its capital was conquered, pillaged and destroyed by sultanate armies in 1565, after which Hampi remained in ruins.
+			</article>
+			<div class="col-md-4 hampi-map-image">
+				<img src="assets/images/map.webp" alt="location" />
 			</div>
+			
+		</div>
 	</section>
 
 	<section class="container-fluid">
@@ -123,7 +126,7 @@
 	<!--map container-->
 	<section class="container-fluid ">
 		<div class="row no-gutters map-container">
-			<div class="col-md-12 map">
+			<div class="col-md-12 map-1">
 				<div id="map"></div>
 			</div>
 		</div>
@@ -163,7 +166,9 @@
 	<script defer
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_QuQ_ARJVJmhjgCWCJ4yl89V1VsCSnCY&callback=initMap">
 	</script>
-	<script type='text/javascript' src="assets/js/presentation.js">
+    <script type='text/javascript' src="assets/js/presentation.js">
+	</script>
+    <script type='text/javascript' src="assets/js/maps.js">
 	</script>
 </body>
 

@@ -64,23 +64,42 @@ This presentation and acceess is only for learning purpose, Public access will b
  
   - Features to implement.
   
-# Structure to be update:
+# ToDo:
 
-  - Slideshow.
-  - Review presentation.
-  - Package offert presentation on Home page and main package page.
-  - Package offert presentation button request and post.
-  - font-awesome icone "spa"
-  - Add an Post/Request button into Package offer main page.
-  - API Google search engine.
+  - Slideshow JS
+      -functionality.
+      
+  - Review Html.
+      - Css style review Div pocision and submit button functionality.
+  
+  - Our Package Html.
+       - Add an button into Package offer.
+       - font-awesome icone "spa".
+       - API Google search engine.
+       
+   - Offerts.
+      - Create Html and Css file.
+       
+   - Login.
+      - Create Html and Css file.
   
 # Features Left to Implement:
 
   - Public limit access into Gitpod Indian Beauty Repo.
   - Access and Login into Facebook, Instagram and review (Review using Google or Facebook account) functionality.
   - Review Submit button Post functionality.
-  - Map API access and Google Map search engine(on Review page) functionality.
-  - Our Package presentation button request and post functionality.
+  - Map API access and Google Map search engine(on Review and home page).
+  - Our Package file button request and post functionality.
+  - Login JS functionality.
+
+
+
+# Bugs:
+
+  -
+  - Destination location on Map, is not working.
+  - Rendering Map icone are not working.
+  
 
 # Technology Used:
 

@@ -94,16 +94,15 @@ This presentation and acceess is only for learning purpose, Public access will b
 
 
 
-# Bugs:
-
-  -
+# Issues/Bugs:
+  
+  - Rendering Responsive design to mobil device.
   - Destination location on Map, is not working.
   - Rendering Map icone are not working.
   
 
 # Technology Used:
 
-* JQuery.
 * Bootstrap.
 * font-awesome.
 * CSS.
@@ -112,6 +111,9 @@ This presentation and acceess is only for learning purpose, Public access will b
 * Google IPA
 
 # Testing
+* browser:
+Oracle, Google Chrome.
+* Responsive Design:
 
 * 1-index file:
 tested and work, but, have issue with map rendering.

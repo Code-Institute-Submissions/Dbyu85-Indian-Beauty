@@ -96,9 +96,9 @@ This presentation and acceess is only for learning purpose, Public access will b
 
 # Issues/Bugs:
   
-  - Rendering Responsive design to mobil device.
+  - Rendering Responsive design to mobil device (Review-site).
   - Destination location on Map, is not working.
-  - Rendering Map icone are not working.
+  - Map icone are not working.
   
 
 # Technology Used:

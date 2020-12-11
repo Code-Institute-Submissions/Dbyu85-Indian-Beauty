@@ -70,10 +70,9 @@ This presentation and acceess is only for learning purpose, Public access will b
       -functionality.
       
   - Review Html.
-      - Css style review Div pocision and submit button functionality.
+      - Css style review Div position and submit button functionality.
   
   - Our Package Html.
-       - Add an button into Package offer.
        - font-awesome icone "spa".
        - API Google search engine.
        
@@ -96,7 +95,7 @@ This presentation and acceess is only for learning purpose, Public access will b
 
 # Issues/Bugs:
   
-  - Rendering Responsive design to mobil device (Review-site).
+  - Rendering Responsive design to mobil device (Review-site: client div at break point 360).
   - Destination location on Map, is not working.
   - Map icone are not working.
   

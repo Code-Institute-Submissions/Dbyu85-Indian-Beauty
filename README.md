@@ -81,6 +81,13 @@ This presentation and acceess is only for learning purpose, Public access will b
        
    - Login.
       - Create Html and Css file.
+     
+ # Issues/Bugs:
+  
+  - Rendering Responsive design to mobil device (Review-site: client div at break point 360).
+  - Rendering map on Responsive design, Mobil dive(Our Package: Map rendering).
+  - Destination location on Map, is not working.
+  - Map icone are not working.
   
 # Features Left to Implement:
 
@@ -90,16 +97,8 @@ This presentation and acceess is only for learning purpose, Public access will b
   - Map API access and Google Map search engine(on Review and home page).
   - Our Package file button request and post functionality.
   - Login JS functionality.
-
-
-
-# Issues/Bugs:
   
-  - Rendering Responsive design to mobil device (Review-site: client div at break point 360).
-  - Destination location on Map, is not working.
-  - Map icone are not working.
-  
-
+ 
 # Technology Used:
 
 * Bootstrap.

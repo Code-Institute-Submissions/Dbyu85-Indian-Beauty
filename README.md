@@ -98,11 +98,16 @@
  
 # Technology Used:
 
+  * JQuery
+    - Responsive design, //hide answers for the faq section, //showing answer with  slideToggle method, //next and prev button for the slideshow, //EventListener Dropdown menu.
   * Bootstrap.
+    - Used for the Navbar, Grid system in all website.
   * font-awesome.
-  * CSS.
+    - For all icons on the website.
   * Media Query.
+    - Used for Responsive design.
   * JavaScript.
+    - Used to interact with Google maps API, 
   * Google IPA
 
 # Testing

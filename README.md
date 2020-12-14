@@ -29,6 +29,10 @@
 
 # Features
 
+  - Navbar
+  - Img Slideshow
+  - Google Map API
+
 ## Homepage Structure:
 
   * slideShow img.
@@ -89,7 +93,7 @@
 # Features Left to Implement:
 
   - Public limit access into Gitpod Indian Beauty Repo.
-  - Access and Login into Facebook, Instagram and review (Review using Google or Facebook account) functionality.
+  - Access and Login into Facebook, Instagram and review (Review using Google e-mail or Facebook account) functionality.
   - Review Submit button Post functionality.
   - Map API access and Google Map search engine(on Review and home page).
   - Our Package file button request and post functionality.
@@ -129,7 +133,8 @@
  ## Issues/Bugs:
   
   - Rendering Responsive design to mobil device (Review-site: client div at break point 360).
-  - Rendering map on Responsive design, Mobil dive(Our Package: Map rendering).
+  - Rendering map on Responsive design, Mobil device(Our Package: Map rendering).
+  - Navbar interaction on responsive design.
   - Destination location on Map, is not working.
   - Map icone are not working.
 

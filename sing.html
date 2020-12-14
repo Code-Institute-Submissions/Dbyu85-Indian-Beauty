@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,7 +13,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
 	<title>Indian Beauty</title>
 </head>
@@ -43,7 +44,19 @@
 						<a class="anchor-cl" href="sing.html">Log in</a>
 					</li>
 				</ul>
-			</nav>
+            </nav>
+            <div class="dropdown" id="dropdown-responsive">
+                <button class="btn btn-secondary dropdown-toggle button-responsive" type="button"         id="dropdownMenuButton" data-bs-toggle="dropdown"                   aria-expanded="false">
+                    Home
+                </button>
+                <div class="home-responsive-dropdown">
+                    <ul class="dropdown-menu"               aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="package.html">Our Package</a></li>
+                        <li><a class="dropdown-item" href="review.html">Review</a></li>
+                        <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
 		</div>
 	</header>
     <!---------------------login container-->
@@ -64,13 +77,13 @@
 						<a class="nav-link-footer" href="terms.html"> Terms & Conditions</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link-footer" href="terms.html">Ordering & Payment</a>
+						<a class="nav-link-footer nav-link-footer-responsive" href="terms.html">Ordering & Payment</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link-footer" href="terms.html">Privacy policy</a>
+						<a class="nav-link-footer nav-link-footer-responsive" href="terms.html">Privacy policy</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link-footer" href="faq.html">FAQ</a>
+						<a class="nav-link-footer nav-link-footer-responsive" href="faq.html">FAQ</a>
 					</li>
 				</ul>
                 <div class="col-md-12 social-links">

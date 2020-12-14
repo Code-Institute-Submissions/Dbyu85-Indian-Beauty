@@ -3,8 +3,8 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -15,7 +15,8 @@
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     
 
 	<title>Indian Beauty</title>
@@ -23,7 +24,7 @@
 
 <body>
 	<header class="container-fluid">
-		<div id="home-page" class="row uppercase">
+		<div id="home-page" class="row home-page-div uppercase">
 			<div class="col-sm-12">
 				<h1 id="indian-beauty">Indian Beauty</h1>
 			</div>
@@ -46,11 +47,24 @@
 						<a class="anchor-cl" href="sing.html">Log in</a>
 					</li>
 				</ul>
-			</nav>
-		</div>
+            </nav>
+            <div class="dropdown" id="dropdown-responsive">
+                <button class="btn btn-secondary dropdown-toggle button-responsive" type="button"         id="dropdownMenuButton" data-bs-toggle="dropdown"                   aria-expanded="false">
+                    Home
+                </button>
+                <div class="home-responsive-dropdown">
+                    <ul class="dropdown-menu"               aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="package.html">Our Package</a></li>
+                        <li><a class="dropdown-item" href="review.html">Review</a></li>
+                        <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       
 	</header>
 	<!--------------------------------------------------slideshow container -->
-	<section class="container-fluid">
+	<section class="container-fluid" id="slideshow-container">
 		<div class="slideShow-container row">
 			<div class="slide-img col-md-12">
 				<img src="assets/images/accd.jpg" class="active">
@@ -62,11 +76,11 @@
 				<img src="assets/images/nandhu-kumar-heYu8lwQeQk-unsplash.jpg">
 			</div>
 				<!--Next and previous buttons -->
-				<div class="prev-next col-md-12">
-					<a class="prev">&#10094;</a>
-					<a class="next">&#10095;</a>
-				</div>
+			<div class="prev-next col-md-12">
+				<a class="prev">&#10094;</a>
+				<a class="next">&#10095;</a>
 			</div>
+		</div>
 	</section>
     <!-----------------------------------------------Hampi History container -->
 	<section class="container-fluid">
@@ -84,7 +98,7 @@
 		</div>
 	</section>
 
-	<section class="container-fluid">
+	<section class="container-fluid" id="travel-container-site">
 		<div id="travel-container" class="row">
 			<div class="col-md-12">
 				<h2 class="travel-title uppercase">discover the beauty of india</h2>
@@ -124,7 +138,7 @@
 		</div>
 	</section>
 	<!--map container-->
-	<section class="container-fluid ">
+	<section class="container-fluid" id="map-container-home">
 		<div class="row no-gutters map-container">
 			<div class="col-md-12 map-1">
 				<div id="map"></div>
@@ -141,13 +155,13 @@
 						<a class="nav-link-footer" href="terms.html"> Terms & Conditions</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link-footer" href="terms.html">Ordering & Payment</a>
+						<a class="nav-link-footer nav-link-footer-responsive" href="terms.html">Ordering & Payment</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link-footer" href="terms.html">Privacy policy</a>
+						<a class="nav-link-footer nav-link-footer-responsive" href="terms.html">Privacy policy</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link-footer" href="faq.html">FAQ</a>
+						<a class="nav-link-footer nav-link-footer-responsive" href="faq.html">FAQ</a>
 					</li>
 				</ul>
                 <div class="col-md-12 social-links">

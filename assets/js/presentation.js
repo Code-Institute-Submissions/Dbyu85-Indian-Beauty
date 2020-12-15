@@ -6,8 +6,8 @@ $(document).ready(function () {
 	$(".faq h4").click(function () {
 		$(this).next(".answer").slideToggle();
 	});
-	$(".faq h4").addClass("faq-question");
-	//------------------end-faq
+    $(".faq h4").addClass("faq-question");
+    
 	
 	//next and prev button for the slideshow
 	
@@ -32,5 +32,8 @@ $(document).ready(function () {
     });
     
     //EventListener Dropdown menu
-	
+	$("#home-responsive-dropdown").on("click", function() {
+        $(this).show();
+    });
+    
 });

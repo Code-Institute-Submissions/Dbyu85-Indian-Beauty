@@ -339,9 +339,7 @@ body {
 }
         /*------------------------------@media map-container*/
 @media only screen and (max-width:915px){
-	#map-container-home{
-        display: none;
-    }
+	
 }
 @media only screen and (max-width:515px){
 	#map-container-home{

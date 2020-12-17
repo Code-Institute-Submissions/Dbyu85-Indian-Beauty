@@ -133,6 +133,7 @@
  ## Issues/Bugs:
   
   - Rendering Responsive design to mobil device (Review-site: client div at break point 360).
+  - Responsive design not working on Ipad.
   - Rendering map on Responsive design, Mobil device(Our Package: Map rendering).
   - Navbar interaction on responsive design  by brack point 692 px to 706 px.
   - Destination location on Map, is not working.

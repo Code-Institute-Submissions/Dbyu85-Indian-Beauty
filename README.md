@@ -134,7 +134,7 @@
   
   - Rendering Responsive design to mobil device (Review-site: client div at break point 360).
   - Rendering map on Responsive design, Mobil device(Our Package: Map rendering).
-  - Navbar interaction on responsive design.
+  - Navbar interaction on responsive design  by brack point 692 px to 706 px.
   - Destination location on Map, is not working.
   - Map icone are not working.
 

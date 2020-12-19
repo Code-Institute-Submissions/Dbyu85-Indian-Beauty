@@ -123,7 +123,7 @@ body {
 .prev-next {
 	cursor: pointer;
 	font-weight: bold;
-    color: red;
+    color: #b69d9d;
 	font-size: 30px;
 	text-align: center;
     padding-top: 21px;
@@ -177,11 +177,9 @@ body {
     height: auto;
     max-width: 100%;
     text-align: center;
-    background-color: rgba(224, 205, 205, 0.6);
-    color: rgba(32, 28, 28, 06);
+    color: #b69d9d;
 }
 .hampi-map-image{
-    background-color: rgba(224, 205, 205, 0.6);
     margin: auto;
     padding: 68px;
     height: auto;
@@ -198,7 +196,27 @@ body {
         margin: 3px;
     }
     .article-text{
+        color: #b69d9d;
+        margin: 3px;
+    }
+}
+@media only screen and (max-width:765px){
+	.hampi-map-image{
+        display: none;
+    }
+    #hampi-history{
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 24px;
+    }
+    .title{
+        background-color: Gray;
         color: black;
+        margin: 3px;
+    }
+    .article-text{
+        color: #b69d9d;
         margin: 3px;
     }
 }
@@ -212,12 +230,12 @@ body {
         margin: 3px;
     }
     .article-text{
-        color: black;
+        color: #b69d9d;
         margin: 3px;
     }
 }
 
-/*---------------------------------------offert Page home.html-*/
+/*---------------------------------------Travel-container home.html-*/
 #travel-container{
     background-color: rgba(0, 0, 0, 0.6);
 	margin: auto;
@@ -242,7 +260,8 @@ body {
 .offerts {
     height: auto;
 	margin: auto;
-	padding: 0;
+    padding: 0;
+    max-width: 100%;
 }
 .offerts img{
     max-width: 100%;
@@ -252,45 +271,36 @@ body {
     margin: auto;  
     border-radius: 0 25px 25px 25px;
 }
-.offert1{
+.offert1, .offert2, .offert3{
     background-color: rgba(224, 205, 205, 0.6);
     font-weight: 700;
     padding: 0;
     margin: auto;
     border-radius: 0 25px 25px 25px;
 }
-.offert2{
-	background-color: rgba(224, 205, 205, 0.6);
-	font-weight: 700;
-    padding: 0;
-    margin: auto;
-    border-radius: 0 25px 25px 25px;
-}
-.offert3{
-	background-color: rgba(224, 205, 205, 0.6);
-	font-weight: 700;
-    padding: 0;
-    margin: auto;
-    border-radius: 0 25px 25px 25px;
-}
 .trips{
-    text-align: center;
-    margin: 0;
-    padding: 10px 5px 10px 5px;
+    margin: auto;
+    padding-left: 35px;
     color: rgba(32, 28, 28, 06);
+    text-align: center;
 }
 .trip-text{
     padding: 10px;
     color: rgba(32, 28, 28, 06);
 }
 .price{
-    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    padding: 15px;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.6);
 }
 .discount{
-    text-align: center;
-    font-size: 15px;
-    margin: 0;
-    padding-top: 25px;
+    max-width: 100%;
+    margin: auto;
+    padding: 15px;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.6);
 }
 .read-more{
 	text-align: center;
@@ -300,7 +310,7 @@ body {
     padding: 25px;   
 }
 .read-more a{
-	color: rgba(32, 28, 28, 06);
+	color: rgba(224, 205, 205, 0.6);
     padding: 25px;
    
 }

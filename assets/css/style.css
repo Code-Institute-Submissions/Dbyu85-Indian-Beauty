@@ -703,13 +703,62 @@ h4{
     color: #cac1c1;
 }
 .contact-title{
-    font-weight: 700;
+    padding: 0;
     margin: auto;
-    padding: 15px;
+    height: auto;
+    max-width: 100%;
+    color: #b69d9d;
+    font-weight: bold;
 }
-.text-center button{
-    background-color:rgba(0, 0, 0, 0.6);
-    text-decoration: none; 
+#submit-button-contact{
+    color: #b69d9d;
+    margin: 3px;
+    font-size: 15px;
+}
+        /*------------------------------@media footer*/
+@media only screen and (max-width:915px){
+    .contact-form{
+        margin: auto;
+        padding: 3;
+        height: auto;
+        max-width: 100%;
+    }
+    .contact-title{
+        background-color: Gray;
+        color: black;
+        margin: 3px;
+        font-size: 15px;
+    }
+    #submit-button-contact{
+        color: #b69d9d;
+        margin: 3px;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:515px){
+    .contact-form-container{
+        margin: auto;
+        padding: 0;
+        height: auto;
+        max-width: 100%;
+    }
+	.contact-form{
+        margin: auto;
+        padding: 3px;
+        height: auto;
+        max-width: 100%;
+    }
+    .contact-title{
+        background-color: Gray;
+        color: black;
+        margin: 3px;
+        font-size: 15px;
+    }
+    #submit-button-contact{
+        color: #b69d9d;
+        margin: 3px;
+        font-size: 15px;
+    }
 }
 
 /*------------------------------login-container*/

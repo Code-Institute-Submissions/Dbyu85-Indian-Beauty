@@ -120,7 +120,7 @@
   * Responsive Design:
 
   * 1-index file:
-  tested and work, but, have issue with map rendering.
+  Issue with map rendering and dropdown menu.
   * 2-Review file:
   static presentation only, submit button and placeholder are not working.
   * 3-Our Package file: 

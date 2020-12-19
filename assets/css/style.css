@@ -525,6 +525,9 @@ h4{
     max-width: 100%;
     border-radius: 0 25px 25px 25px;
 }
+.package-info h3, .package-info-2 h3, .package-info-3 h3{
+    text-align: center;
+}
 #package-info-for-mobile{
     display: none;
 }
@@ -558,7 +561,6 @@ h4{
     .client{
         max-width: 100%;
     }
-    
 	#map-container-home{
         display: none;
     }
@@ -572,36 +574,40 @@ h4{
 @media only screen and (max-width:585px){
     #package-info-for-mobile{
         display: inline-block;
-        background-color: aqua;
+        background-color: rgba(0, 0, 0, 0.6);
         height: auto;
         max-width: 100%;
+        margin: auto;
+        padding: 0;
     }
     .package-info-responsive img{
         height: auto;
         max-width: 100%;
         margin: 15px;
         padding: 0;
-        text-align: center;
         border-radius: 25px;
     }
     .offer-pack-responsive{
         text-align: center;
-        color: #b69d9d;
-        font-size: 45px;
+        color: #9db1b6;
+        font-size: 25px;
+        font-weight: bold;
     }
     .offer-pack-text-responsive{
         display: inline;
         height: auto;
         max-width: 100%;
         margin: auto;
-        padding: 2px;
+        padding: 22px;
         color: #b69d9d;
-        font-size: 30px;
+        font-size: 20px;
+        font-weight: bold;
     }
-    .list-inline-package-responsive{
+    .pack-link-responsive{
         height: auto;
         max-width: 100%;
         margin: auto;
+        text-decoration: none;
         
     }
     .pack-link-responsive{

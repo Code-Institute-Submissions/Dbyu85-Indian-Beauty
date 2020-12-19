@@ -46,16 +46,13 @@
 					</li>
 				</ul>
             </nav>
-            <div class="dropdown" id="dropdown-responsive">
-                <button class="btn btn-secondary dropdown-toggle button-responsive" type="button"         id="dropdownMenuButton" data-bs-toggle="dropdown"                   aria-expanded="false">
-                    Home
-                </button>
-                <div class="home-responsive-dropdown">
-                    <ul class="dropdown-menu"               aria-labelledby="dropdownMenuButton">
-                        <li><a class="dropdown-item" href="package.html">Our Package</a></li>
-                        <li><a class="dropdown-item" href="review.html">Review</a></li>
-                        <li><a class="dropdown-item" href="contact.html">Contact</a></li>
-                    </ul>
+           <div class="dropdown">
+                <button onclick="responsiveFunction()" class="rbt">Home</button>
+                <div id="dropMenu" class="dropdown-responsive">
+                    <a href="index.html">Home</a>
+                    <a href="package.html">Our Package</a>
+                    <a href="review.html">Review</a>
+                    <a href="contact.html">Contact</a>
                 </div>
             </div>
 		</div>

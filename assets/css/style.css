@@ -15,7 +15,7 @@ body {
     margin: auto;
     max-width: 100%;
 }
-#dropdown-responsive{
+.dropdown{
     display: none;
 }
 .nav-home { 
@@ -61,7 +61,7 @@ body {
 	#slideshow-container{
         display: none;
     }
-    #dropdown-responsive{
+    .dropdown{
         display: none;
     }
     .anchor-cl{
@@ -72,7 +72,7 @@ body {
 	#slideshow-container{
         display: none;
     }
-    #dropdown-responsive{
+    .dropdown{
         background-color: rgba(0, 0, 0, 0.6);
         width: 347px;
         height: auto;
@@ -80,18 +80,20 @@ body {
         margin: auto;
         display: inline-block;
     }
-    .button-responsive{
+    .rbt{
         background-color: rgb(105, 29, 29);
         color: black;
         margin: 3px;
         float: right;
     }
-    .home-responsive-dropdown{
-        background-color: rgb(105, 29, 29);
+    .dropdown-responsive{
+        display: none;
+    }
+    .dropdown-responsive a {
         color: black;
-        margin: 3px;
-        float: left;
-        max-width: 100%;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
     }
      .nav-home{
         display: none;
@@ -426,6 +428,11 @@ h4{
     padding: 5px;
     color: #b69d9d;
 }
+.review-form-title{
+    margin: auto;
+    padding: 5px;
+    color: #b69d9d;
+}
 .review-form h3{
     font-weight: 600;
 }
@@ -715,7 +722,7 @@ h4{
     margin: 3px;
     font-size: 15px;
 }
-        /*------------------------------@media footer*/
+        /*------------------------------@media contact-form*/
 @media only screen and (max-width:915px){
     .contact-form{
         margin: auto;
@@ -892,16 +899,42 @@ h4{
 }
 .faq h4{
 	display: block;
-	font-size: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+.faq h1{
+    padding: 15px;
 }
 .answer{
+    height: auto;
+    max-width: 100%;
 	font-size: 20px;
     margin: auto;
-    padding: 35px;
+    padding: 0;
     background-color: azure;
 }
 .faq-question{
-    
 	color: rgb(169, 169, 184);
 	cursor: pointer;
+}
+        /*------------------------------@media faq*/
+@media only screen and (max-width:915px){
+	.answer{
+        padding: 0;
+        margin: auto;
+        height: auto;
+        max-width: 100%;
+        font-size: 20px;
+        background-color: azure;
+    }
+}
+@media only screen and (max-width:515px){
+	.answer{
+        padding: 0;
+        margin: auto;
+        height: auto;
+        max-width: 100%;
+        font-size: 20px;
+        background-color: azure;
+    }
 }

@@ -30,10 +30,23 @@ $(document).ready(function () {
 			prevImg.addClass("active").css("z-index", 10);
 		}
     });
-    
-    //EventListener Dropdown menu
-	$("#home-responsive-dropdown").on("click", function() {
-        $(this).show();
-    });
-    
+     
 });
+
+ //JS Dropdown function / source w3schools.com https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown
+
+    function responsiveFunction() {
+        document.getElementById("dropMenu").classList.toggle("show");
+    }
+    window.onclick = function(event) {
+        if (!event.target.matches('.rbt')) {
+            var dropdowns = document.getElementsByClassName("dropdown-responsive");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }

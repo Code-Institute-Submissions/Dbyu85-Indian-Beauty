@@ -9,7 +9,7 @@ $(document).ready(function () {
     $(".faq h4").addClass("faq-question");
     
 	
-	//next and prev button for the slideshow
+	//next and prev button for the slideshow source w3schools.com
 	
 	$(".next").click (function(){
 		var currentImg = $(".active");
@@ -33,7 +33,7 @@ $(document).ready(function () {
      
 });
 
- //JS Dropdown function / source w3schools.com https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown
+ //JS Dropdown function / source w3schools.com 
 
     function responsiveFunction() {
         document.getElementById("dropMenu").classList.toggle("show");

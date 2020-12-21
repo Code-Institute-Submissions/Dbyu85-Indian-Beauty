@@ -8,6 +8,7 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 }
+
 /*----------------------------------------Navbar home*/
 #home-page{
     background-color: rgba(0, 0, 0, 0.6);
@@ -330,37 +331,19 @@ body {
 
 /*---------------------------------------Map container-*/
 .map-container{
-    background-color:  rgba(0, 0, 0, 0.6);
+    max-width: 100%;
+    height: auto;
     margin: auto;
     padding: 0;
-    max-width: 100%;
 }
-.map-1, .map-2{
-    position: relative;
+#map{
     max-width: 100%;
-    height: 490px;
+    height: 390px;
     margin: auto;
+    padding: 3px;
 }
- #map{
-    position: absolute;
-    left: 335px;
-    top: 45px;
-    height: 410px;
-    width: 590px;
-    border-radius: 12px;
-}
-        /*------------------------------@media map-container*/
-@media only screen and (max-width:915px){
-	
-}
-@media only screen and (max-width:515px){
-	#map-container-home{
-        display: none;
-    }
-    .map-container{
-        text-align: center;
-    }
-}
+/*------------------------------@media map-container*/
+
 
 
 
@@ -726,7 +709,7 @@ h4{
 @media only screen and (max-width:915px){
     .contact-form{
         margin: auto;
-        padding: 3;
+        padding: 3px;
         height: auto;
         max-width: 100%;
     }

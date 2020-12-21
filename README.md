@@ -18,6 +18,13 @@
 ## Mock-up
 
   [mockup](https://github.com/Dbyu85/Indian-Beauty/tree/master/assets/images/mockup)
+  
+## Gidpod
+  For contributions, advice and access, just click the link below.
+  
+  [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Dbyu85/Indian-Beauty)
+
+  This presentation and acceess is only for learning purpose, Public access will be limited(Features to implement).
 
 ## UX structure
 
@@ -122,7 +129,7 @@
   * 1-index file:
   Issue with map rendering and dropdown menu.
   * 2-Review file:
-  static presentation only, submit button and placeholder are not working.
+  Submit button and placeholder are not working.
   * 3-Our Package file: 
   static presentation with not active actions, map rendering issue, cant find specific locations.
   * 4-contact file:
@@ -150,6 +157,8 @@
 
   * Use of w3 source, CodeInstitute, youtube tutorials:
     - LearnWebCode, Traversy Media.
+  
+  * Kevin Suter
 
   * Use of img: personal pic, unplash, google img.
 
